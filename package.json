@@ -4,7 +4,8 @@
   "description": "Interactive datavisualisation with D3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch index.js --watch helpers.js",
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -13,8 +14,21 @@
   "keywords": [],
   "author": "Chelsea Doeleman",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chelseadoeleman/frontend-data/issues"
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "d3": "^5.7.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonpath": "^1.0.0",
+    "lodash.range": "^3.2.0",
+    "node-oba-api-wrapper": "github:maanlamp/node-oba-api-wrapper",
+    "oba-api": "github:rijkvanzanten/node-oba-api",
+    "query-string": "^6.2.0",
+    "xml-to-json-promise": "0.0.3"
   },
-  "homepage": "https://github.com/chelseadoeleman/frontend-data#readme"
+  "devDependencies": {
+    "nodemon": "^1.18.5",
+    "xo": "^0.23.0"
+  }
 }
