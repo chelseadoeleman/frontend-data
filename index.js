@@ -1,32 +1,101 @@
-require('dotenv').config()
+// Shout out naar Folkert, Dennis en Daniël van de Velde
+require("dotenv").config()
 
-const api = require('./oba-api.js')
-const chalk = require('chalk');
-const express = require('express')
+const fs = require("fs")
+const chalk = require("chalk")
+const express = require("express")
 const app = express()
 const port = 3000
+const helpers = require("./helpers/helpers.js")
+const obaWrapper = require("node-oba-api-wrapper")
 
-const obaApi = new api({
-  url: 'https://zoeken.oba.nl/api/v1/',
-  key: process.env.PUBLIC
+const obaApi = new obaWrapper({
+	public: process.env.PUBLIC,
+    secret: process.env.SECRET
 })
 
-// Search for method, params and than optional where you wanna find something
-// returns first 20 items
-// obaApi.get(endpoint, params, filterKey)
-// possible endpoints: search (needs 'q' parameter) | details (needs a 'frabl' parameter) | availability (needs a 'frabl' parameter) | holdings/root | index/x (where x = facet type (like 'book' ))
-// possible parameters: q, librarian, refine, sort etc. check oba api documentation for all
-// possible filterKey: any higher order key in response object, like title returns only title objects instead of full data object
-obaApi.get('search', {
-  q: 'harry potter',
-  librarian: true,
-  refine: true
-}, 'title').then(response => {
+// Parameters in search
+const search = async (q, facet) => {
+  	return await obaApi.get("search", {
+  	  	q,
+		librarian: true,
+		// Always needs to be true
+		refine: true,
+		facet,
+		// Return amount of results 
+		count: 1500,
+		filter: (result) => {
+			const publicationYear = helpers.getPublicationYearFromResult(result)
+			const currentYear = new Date().getFullYear()
 
-  // response ends up here
-  console.log(response)
+			// filter on publicationYear from the last 30 years
+			return publicationYear >= currentYear - 30
+		}
+  	})  
+}
 
-  // Make server with the response on the port
-  app.get('/', (req, res) => res.json(response))
-  app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
-})
+// Shout out naar Maikel
+(async () => {
+	try {
+		const results = await search("language:eng", "type(book)")
+		// ("harry potter", ["type(book)", "auteur(J.K. Rowling)"])
+		// meerdere facetten toevoegen thanks to Jessie
+
+		if (results) {
+			// Return a new object with specific results
+			const transformedResults = helpers.getTransformedResultFromResults(results)
+			// get all the authors from transformedResults
+			const authors = transformedResults.map(result => result.author)
+			// Map over authors to get the gender of every author
+			const transformedAuthors = authors.map(helpers.getNameAndGender)
+			
+			// Create new a new array with all the author names and belonging gender
+			const filterTransformedAuthors = transformedAuthors.filter(transformedAuthor => {
+				return transformedAuthor.name && transformedAuthor.gender
+			})
+
+			// Get the gender from every year by mapping over getPublicationYears in a specific range
+			const getGenderFromYear = helpers.getPublicationYears().map(year => {
+				// Get the results for every specific year within that range
+				const resultsByYear = transformedResults.filter(result => result.publicationYear === year) 
+				// Map over results from resultsByYear to get the specific author and create an new array
+				// with the author and gender
+				const gendersAndNames =	resultsByYear
+					.map(result => helpers.getNameAndGender(result.author))
+					.filter(result => result.name && result.gender)
+				
+				// Get the amount of genders in that specific year
+				const amountOfMen = gendersAndNames.filter(genderAndName => genderAndName.gender === "Man").length
+				const amountOfWomen = gendersAndNames.filter(genderAndName => genderAndName.gender === "Vrouw").length
+				// New Object to create a new data structure to use for the visualization
+				return {
+					// Year is specified as an string
+					category: year.toString(),
+					values: [
+						{
+							gender: "men",
+							value: amountOfMen,
+						},
+						{
+							gender: "women",
+							value: amountOfWomen,
+						},
+					]
+				}
+			})
+
+			console.log(getGenderFromYear)
+			console.log(filterTransformedAuthors)
+			console.log(transformedResults)
+
+			// Get results in localhost on port 3000 
+			app.get("/", (req, res) => res.json(getGenderFromYear))
+			app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
+			// Write results to data.json
+			fs.writeFile("data.json", JSON.stringify(getGenderFromYear), (err) => err && console.error(err))
+		}
+	} catch (error) {
+		throw new Error(error)
+	}
+})()
+

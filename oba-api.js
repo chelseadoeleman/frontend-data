@@ -42,7 +42,7 @@ module.exports = class api {
       .catch(err => {
         console.log(chalk.red(combineUrl));
         console.error(chalk.red(err));
-        return eject(err)
+        return reject(err)
       })
     })
   }
