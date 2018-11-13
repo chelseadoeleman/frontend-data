@@ -77,7 +77,7 @@ const transFormDuration = (rawDuration) => {
     const timesCode = String.fromCharCode(215)
     const multiplyArray = removeAbout2.indexOf(` ${timesCode} `) !== -1 && removeAbout2.split(` ${timesCode} `)
 
-    console.log(multiplyArray)
+    // console.log(multiplyArray)
 
     if (multiplyArray) {
         const firstNumber = Number(multiplyArray[0])
@@ -89,7 +89,14 @@ const transFormDuration = (rawDuration) => {
 
         return firstNumber * secondNumber
     } else {
+        const plusArray = removeAbout2.indexOf(", ") !== -1 && removeAbout2.split(", ")
+        console.log(plusArray)
         return removeAbout2
+        // if (plusArray) {
+        //     return Number(plusArray[0]) + Number(plusArray[1])
+        // } else {
+        //     return removeAbout2
+        // }
     }
     // const replaceMultiply = removeMin.replace('x', '')
     // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
