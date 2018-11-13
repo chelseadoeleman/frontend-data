@@ -4,7 +4,7 @@
   "description": "Interactive datavisualisation with D3",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch index.js --watch helpers.js",
+    "start": "nodemon --watch index.js --watch helpers/helpers.js",
     "test": "xo"
   },
   "repository": {
