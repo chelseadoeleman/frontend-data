@@ -23,14 +23,16 @@ const search = async (q, facet) => {
 		refine: true,
 		facet,
 		// Return amount of results 
-		count: 20,
-		// filter: (result) => {
-		// 	// const publicationYear = helpers.getPublicationYearFromResult(result)
-		// 	// const currentYear = new Date().getFullYear()
+		count: 100,
+		filter: (result) => {
+			const publicationYear = helpers.getPublicationYearFromResult(result)
+			const currentYear = new Date().getFullYear()
 
-		// 	// // filter on publicationYear from the last 30 years
-		// 	// return publicationYear >= currentYear - 200
-		// }
+			// filter on publicationYear from the last 30 years
+			return publicationYear >= currentYear - 10
+			// Shout out naar Jessie
+			 && helpers.getGenreFromResult(result)
+		}
   	})  
 }
 
@@ -44,8 +46,10 @@ const search = async (q, facet) => {
 		if (results) {
 			// Return a new object with specific results
 			const transformedResults = helpers.getTransformedResultFromResults(results)
-			// get all the authors from transformedResults
-			const title = transformedResults.map(result => result.title)
+			// get duration from transformedResults
+			// const durations = transformedResults.map(result => ({
+			// 	duration: helpers.getDuraresult.duration
+			// })
 			// Map over authors to get the gender of every author
 			// const transformedAuthors = authors.map(helpers.getNameAndGender)
 			
@@ -83,7 +87,7 @@ const search = async (q, facet) => {
 			// 		]
 			// 	}
 			// })
-
+			// console.log(helpers.getDurationTime(durations))
 			console.log(transformedResults)
 
 			// console.log(getGenderFromYear)

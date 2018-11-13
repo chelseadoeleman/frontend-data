@@ -52,58 +52,98 @@ const getCoverImageFromResult = (result) => {
             : result.coverimages.coverimage.$t || undefined
 }
 
-// // getPublicationYears from the last 30 years.
-// const getPublicationYears = () => {
-//     const currentYear = new Date().getFullYear()
-//     // Currentyear + 1 because else it wouldn't count past 1 januari 2018
-//     const publicationYears = _range(currentYear - 200, currentYear + 1)
+// getPublicationYears from the last 30 years.
+const getPublicationYears = () => {
+    const currentYear = new Date().getFullYear()
+    // Currentyear + 1 because else it wouldn't count past 1 januari 2018
+    const publicationYears = _range(currentYear - 10, currentYear + 1)
 
-//     return publicationYears
-// }
+    return publicationYears
+}
 
-// // Shout out naar Wouter 
-// const getFilterdGender = {};
+// return Name and Gender in a new object.
+const getDurationTime = (duration) => {
+    const rawDuration = duration.split("(")[1].split(")")[0]
+    const transformedDuration = transFormDuration(rawDuration)
+    return transformedDuration
+}
 
-// // Check if the name is male of female or maybe can't even be identified
-// const getGenderFromName = (firstname) => {
-// 	if (Object.keys(getFilterdGender ).length <= 0) {
-// 		Object.assign(getFilterdGender , JSON.parse(fs.readFileSync(__dirname + "/../data/names.json", "utf8")));
-// 	}
-// 	const man = getFilterdGender .mannen.find(name => name === firstname);
-//     const vrouw = getFilterdGender .vrouwen.find(name => name === firstname);
-// 	if (!(man || vrouw) || man && vrouw) return null;
-// 	return (man && "Man") || (vrouw && "Vrouw");
-// }
+const transFormDuration = (rawDuration) => {
+    console.log(rawDuration)
 
-// // return Name and Gender in a new object.
-// const getNameAndGender = (author) => {
-//     const authorFirstNameLastName = author && author.split(", ")
-//     let firstName = authorFirstNameLastName && authorFirstNameLastName.length && authorFirstNameLastName[1]
-//     const firstDot = firstName && firstName.indexOf(".")
+    const removeMin = rawDuration.replace(' min.', '')
+    const removeAbout = removeMin.replace('ongeveer ', '')
+    const removeAbout2 = removeAbout.replace('ca. ', '')
+    const timesCode = String.fromCharCode(215)
+    const multiplyArray = removeAbout2.indexOf(` ${timesCode} `) !== -1 && removeAbout2.split(` ${timesCode} `)
+
+    console.log(multiplyArray)
+
+    if (multiplyArray) {
+        const firstNumber = Number(multiplyArray[0])
+        const secondNumber = Number(multiplyArray[1])
+
+        if (isNaN(secondNumber)) {
+            return firstNumber
+        }
+
+        return firstNumber * secondNumber
+    } else {
+        return removeAbout2
+    }
+    // const replaceMultiply = removeMin.replace('x', '')
+    // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
+
+    // // krijg alleen de tijd van description en pak daarvan de linkerkant
+    // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
+    // // begin vanaf het eerstje (
+    // const firstHook = duration && duration.indexOf("(")
+    // const transformedDuration = removeTokensFromDuration(hasHook, duration, firstHook)
+
+//     const descriptionWithDuration = duration && author.split(")")
+//     let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
+//     const firstHook = duration && duration.indexOf(")")
 //     // When there are no dots return "falsy" so it won't use the following function: getTransformedFirstName
-//     const hasDots = firstDot !== -1
+//     const hasHook = firstHook !== -1
 //     // Remove tokens from firstname with parameters to use in the that function
-//     const transformedFirstName = getTransformedFirstName(hasDots, firstName, firstDot)
+//     const transformedDuration = removeTokensFromDuration(hasHook, duration, firstHook)
 //     // If there are dots return transformedFirstname else just the firstName 
 //     // Add gender to that equation
-//     const nameToUse = hasDots ? transformedFirstName : firstName
+//     const timeToUse = hasHook ? transformedDuration : duration
 //     return {
-//         name: nameToUse,
-//         // call the following function, to see what gender belongs to that name
-//         gender: getGenderFromName(nameToUse),
+//         duration: timeToUse,
 //     }
-// }
+        // return getDurationTime
+}
 
-// // Remove tokens from firstname 
-// const getTransformedFirstName = (hasDots, firstName, firstDot) => {
+// // Remove tokens from duration
+// const removeTokensFromDuration = (hasHook, duration, firstHook) => {
+    
+//     // verwijder alles voor dit haakje (
+//     // verander x in *
+//     // maak er een nummer van 
+//     // gooi het in het nieuwe object
+
+//     // verwijder alles na het eerst haakje
 //     // One step back from the first dot
-//     const removeStartIndex = hasDots ? firstDot - 1 : undefined
-//     const endIndex = firstName && firstName.length
+//     const removeStartIndex = hasHook ? firstHook - 1 : undefined
+
+//     const endIndex = duration && duration.length
 //     // Remove the tokens and check if the firstName = not undefined
-//     const tokensToRemove = firstName && removeStartIndex !== undefined && firstName.slice(removeStartIndex, endIndex)
+//     const tokensToRemove = duration && removeStartIndex !== undefined && duration.slice(removeStartIndex, endIndex)
 //     // Remove space from firstName after removing the tokens
-//     const transformedFirstName = tokensToRemove && firstName.replace(tokensToRemove, '').trim()
+//     const transformedFirstName = tokensToRemove && duration.replace(tokensToRemove, '').trim()
 //     return transformedFirstName
+
+
+//     // const removeStartIndex = hasHook ? firstHook - 1 : undefined
+
+//     // const endIndex = duration && duration.length
+//     // // Remove the tokens and check if the firstName = not undefined
+//     // const tokensToRemove = duration && removeStartIndex !== undefined && duration.slice(removeStartIndex, endIndex)
+//     // // Remove space from firstName after removing the tokens
+//     // const transformedFirstName = tokensToRemove && duration.replace(tokensToRemove, '').trim()
+//     // return transformedFirstName
 // }
 
 // Return new object while mapping over all results to get only the specific result for research
@@ -111,7 +151,7 @@ const getTransformedResultFromResults = (results) => {
     return results 
         ? results.map(result => ({
             title: getTitleFromResult(result),
-            duration: getDurationFromResult(result),
+            duration: getDurationTime(getDurationFromResult(result)),
             publicationYear: getPublicationYearFromResult(result),
             genre: getGenreFromResult(result),
             coverImage: getCoverImageFromResult(result)
@@ -123,8 +163,9 @@ const getTransformedResultFromResults = (results) => {
 // Export the following functions
 module.exports = {
     getTransformedResultFromResults,
-    getGenreFromResult
-    // getPublicationYearFromResult, 
+    getPublicationYearFromResult, 
+    getGenreFromResult,
+    getDurationTime
     // getGenderFromName, 
     // getNameAndGender,
     // getPublicationYears
