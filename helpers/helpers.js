@@ -69,7 +69,7 @@ const getDurationTime = (duration) => {
 }
 
 const transFormDuration = (rawDuration) => {
-    console.log(rawDuration)
+    // console.log(rawDuration)
 
     const removeMin = rawDuration.replace(' min.', '')
     const removeAbout = removeMin.replace('ongeveer ', '')
@@ -89,14 +89,10 @@ const transFormDuration = (rawDuration) => {
 
         return firstNumber * secondNumber
     } else {
-        const plusArray = removeAbout2.indexOf(", ") !== -1 && removeAbout2.split(", ")
-        console.log(plusArray)
-        return removeAbout2
-        // if (plusArray) {
-        //     return Number(plusArray[0]) + Number(plusArray[1])
-        // } else {
-        //     return removeAbout2
-        // }
+        const plusArray = removeAbout2.includes(', ') && removeAbout2.split(", ")
+        return plusArray 
+            ? plusArray.reduce((acc, curr) => acc + Number(curr), 0)
+            : Number(removeAbout2)
     }
     // const replaceMultiply = removeMin.replace('x', '')
     // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
@@ -156,14 +152,19 @@ const transFormDuration = (rawDuration) => {
 // Return new object while mapping over all results to get only the specific result for research
 const getTransformedResultFromResults = (results) => {
     return results 
-        ? results.map(result => ({
-            title: getTitleFromResult(result),
-            duration: getDurationTime(getDurationFromResult(result)),
-            publicationYear: getPublicationYearFromResult(result),
-            genre: getGenreFromResult(result),
-            coverImage: getCoverImageFromResult(result)
-        }
-        )) 
+        ? results
+            .filter(result => {
+                const duration = getDurationFromResult(result)
+                return !duration.includes('uur') 
+                    && !duration.includes('..')      
+            })
+            .map(result => ({
+                title: getTitleFromResult(result),
+                duration: getDurationTime(getDurationFromResult(result)),
+                publicationYear: getPublicationYearFromResult(result),
+                genre: getGenreFromResult(result),
+                coverImage: getCoverImageFromResult(result)
+            })) 
         : []
 }
 
