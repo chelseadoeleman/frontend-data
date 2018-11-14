@@ -1,1 +1,565 @@
-[{"category":"1988","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1989","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1990","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1991","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1992","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1993","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1994","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1995","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1996","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1997","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1998","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"1999","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2000","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2001","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2002","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2003","values":[{"gender":"men","value":1},{"gender":"women","value":0}]},{"category":"2004","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2005","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2006","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2007","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2008","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2009","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2010","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2011","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2012","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2013","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2014","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2015","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2016","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2017","values":[{"gender":"men","value":0},{"gender":"women","value":0}]},{"category":"2018","values":[{"gender":"men","value":0},{"gender":"women","value":0}]}]
+[{
+    "title": "The legend of Korra",
+    "duration": 153,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396088260&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Everything, everything",
+    "duration": 96,
+    "publicationYear": 2017,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413351386&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rio 2",
+    "duration": 87,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=376464224&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The hunger games",
+    "duration": 136,
+    "publicationYear": 2012,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343198398&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Diary of a wimpy kid 2 : Rodrick rules",
+    "duration": 95,
+    "publicationYear": 2012,
+    "genre": "School",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339410035&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jasper & Julia en de dappere ridders 3D",
+    "duration": 90,
+    "publicationYear": 2014,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=372684998&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cloudy with a Chance of Meatballs 2",
+    "duration": 91,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374338892&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Atlantis",
+    "duration": 585,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=373656971&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Odd Thomas",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": "Thriller",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375414061&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "TinkerBell en de piraten",
+    "duration": 78,
+    "publicationYear": 2014,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380231794&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "BarbieTM en de geheime deur",
+    "duration": 81,
+    "publicationYear": 2014,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381318753&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Maleficent",
+    "duration": 97,
+    "publicationYear": 2014,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382696263&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mio in the land of Faraway",
+    "duration": 94,
+    "publicationYear": 2014,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=385912382&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lego Ninjago: Masters of Spinjitzu",
+    "duration": 286,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387622063&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Billy Elliot",
+    "duration": 105,
+    "publicationYear": 2015,
+    "genre": "Sociaal/politiek verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383669472&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The book of life",
+    "duration": 92,
+    "publicationYear": 2015,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387613242&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Seventh son",
+    "duration": 97,
+    "publicationYear": 2015,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393769542&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Despicable me",
+    "duration": 184,
+    "publicationYear": 2015,
+    "genre": "Detective",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393767892&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Paddington",
+    "duration": 95,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394156102&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lego Ninjago: Masters of Spinjitzu",
+    "duration": 169,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394217861&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lego Ninjago: Masters of Spinjitzu",
+    "duration": 169,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394217691&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jurassic world",
+    "duration": 124,
+    "publicationYear": 2015,
+    "genre": ["Avontureroman", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395400430&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "De Vijf en het Groene Oogmysterie",
+    "duration": 93,
+    "publicationYear": 2015,
+    "genre": "Detective",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395128536&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Avengers: age of Ultron",
+    "duration": 135,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396906850&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cinderella",
+    "duration": 101,
+    "publicationYear": 2015,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397241054&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Le petit prince",
+    "duration": 108,
+    "publicationYear": 2015,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397731191&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tom and Jerry collection",
+    "duration": 1113,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=398056420&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Batman unlimited: Monster Mayhem : original movie",
+    "duration": 77,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397925409&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The good dinosaur",
+    "duration": 100,
+    "publicationYear": 2016,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400977818&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Batman unlimited: Mech vs mutants",
+    "duration": 72,
+    "publicationYear": 2016,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406394202&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Finding Dory",
+    "duration": 97,
+    "publicationYear": 2016,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407397663&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Miss Peregrine's home for peculiar children",
+    "duration": 127,
+    "publicationYear": 2017,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407948201&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fantastic beasts and where to find them",
+    "duration": 133,
+    "publicationYear": 2017,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40874281X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Red dog: true blue",
+    "duration": 88,
+    "publicationYear": 2017,
+    "genre": "Dieren",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412866366&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Avengers 1-3",
+    "duration": 427,
+    "publicationYear": 2018,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=418986878&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Up",
+    "duration": 93,
+    "publicationYear": 2009,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322972183&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fantastic Mr. Fox",
+    "duration": 86,
+    "publicationYear": 2010,
+    "genre": ["Dieren", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327838906&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The maze runner",
+    "duration": 109,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=385977352&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Project T",
+    "duration": 129,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396021980&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Barbie & het diamantkasteel",
+    "duration": 85,
+    "publicationYear": 2008,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314626913&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Hobbit",
+    "duration": 169,
+    "publicationYear": 2013,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354987488&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Walking with dinosaurs",
+    "duration": 84,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374557853&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Koemba: de zebra die zijn strepen kwijt is",
+    "duration": 85,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380509091&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lego Ninjago: Masters of Spinjitzu",
+    "duration": 286,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38365906X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roald Dahl's Esio Trot",
+    "duration": 88,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393131637&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pups united",
+    "duration": 86,
+    "publicationYear": 2015,
+    "genre": ["Dieren", "Sport"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395446384&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "De GVR",
+    "duration": 117,
+    "publicationYear": 2016,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407153837&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Paddington 2",
+    "duration": 99,
+    "publicationYear": 2018,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416840108&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter and the Deathly Hallows, part 1",
+    "duration": 140,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332306402&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Night at the museum",
+    "duration": 207,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370172523&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The adventures of Tintin : the secret of The Unicorn",
+    "duration": 102,
+    "publicationYear": 2012,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339366680&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rise of the Guardians",
+    "duration": 97,
+    "publicationYear": 2013,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=355358484&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The diary of a teenage girl",
+    "duration": 102,
+    "publicationYear": 2015,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396916422&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brave",
+    "duration": 100,
+    "publicationYear": 2012,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351196897&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Breaking dawn : part 1",
+    "duration": 113,
+    "publicationYear": 2012,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=340286032&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rango",
+    "duration": 103,
+    "publicationYear": 2011,
+    "genre": "Western",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334063353&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Against the wild",
+    "duration": 90,
+    "publicationYear": 2014,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375878130&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The legend of Korra",
+    "duration": 138,
+    "publicationYear": 2014,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395445507&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pirates of the Caribbean: Salazar's revenge",
+    "duration": 129,
+    "publicationYear": 2017,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=411327224&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Avengers: infinity war",
+    "duration": 149,
+    "publicationYear": 2018,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419006613&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de vuurbeker",
+    "duration": 151,
+    "publicationYear": 2011,
+    "genre": ["School", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337939497&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "TinkerBell and the secret of wings",
+    "duration": 75,
+    "publicationYear": 2012,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35263796X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "De ultieme Spy kids 4 dvd collection",
+    "duration": 360,
+    "publicationYear": 2014,
+    "genre": "Detective",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375314695&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harlock : space pirate",
+    "duration": 115,
+    "publicationYear": 2015,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390786365&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The legend of Korra",
+    "duration": 159,
+    "publicationYear": 2014,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395450519&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Room",
+    "duration": 118,
+    "publicationYear": 2016,
+    "genre": "Psychologisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402345827&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Trolls",
+    "duration": 92,
+    "publicationYear": 2017,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408458283&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The trip",
+    "duration": 107,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338893644&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter and the Deathly Hallows, part 1",
+    "duration": 140,
+    "publicationYear": 2011,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337939691&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de steen der wijzen",
+    "duration": 147,
+    "publicationYear": 2011,
+    "genre": ["School", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338041117&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Peter Pan",
+    "duration": 76,
+    "publicationYear": 2012,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352694904&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "12 years a slave",
+    "duration": 128,
+    "publicationYear": 2014,
+    "genre": "Racisme",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=372689361&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "American hustle",
+    "duration": 138,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377031615&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A dog named Christmas",
+    "duration": 95,
+    "publicationYear": 2012,
+    "genre": ["Dieren", "Familieroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353740705&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The legend of Korra",
+    "duration": 138,
+    "publicationYear": 2013,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395445426&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Doctor Foster",
+    "duration": 275,
+    "publicationYear": 2016,
+    "genre": "Thriller",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402488865&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Teenage Mutant Ninja Turtles: Out of the shadows",
+    "duration": 112,
+    "publicationYear": 2016,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406928126&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fifty shades darker",
+    "duration": 112,
+    "publicationYear": 2017,
+    "genre": "Erotiek",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=410871842&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "From time to time",
+    "duration": 92,
+    "publicationYear": 2010,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=330072129&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Inkheart",
+    "duration": 106,
+    "publicationYear": 2009,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321888960&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Midsomer murders",
+    "duration": 400,
+    "publicationYear": 2009,
+    "genre": "Detective",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323595618&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de geheime kamer",
+    "duration": 155,
+    "publicationYear": 2011,
+    "genre": ["School", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338041532&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Holes",
+    "duration": 115,
+    "publicationYear": 2010,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34449117X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The wolf of Wall Street",
+    "duration": 212,
+    "publicationYear": 2014,
+    "genre": "Biografie",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374787700&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The double",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": "Psychologisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380490986&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The following",
+    "duration": 630,
+    "publicationYear": 2014,
+    "genre": "Thriller",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38062866X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The invisible woman",
+    "duration": 108,
+    "publicationYear": 2014,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380078856&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The boxtrolls",
+    "duration": 82,
+    "publicationYear": 2015,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390674222&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Birdman",
+    "duration": 119,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391785257&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lego legends of Chima",
+    "duration": 441,
+    "publicationYear": 2015,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39342085X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The last rescue",
+    "duration": 105,
+    "publicationYear": 2015,
+    "genre": "Oorlog en verzet",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393522717&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "War & peace",
+    "duration": 360,
+    "publicationYear": 2016,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402482603&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Death in paradise",
+    "duration": 400,
+    "publicationYear": 2016,
+    "genre": "Detective",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402563573&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Vaiana",
+    "duration": 103,
+    "publicationYear": 2017,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}]

@@ -100,7 +100,7 @@ const search = async (q, facet) => {
 			app.get("/", (req, res) => res.json(transformedResults))
 			app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
 			// Write results to data.json
-			// fs.writeFile("data.json", JSON.stringify(getGenderFromYear), (err) => err && console.error(err))
+			fs.writeFile("data.json", JSON.stringify(transformedResults), (err) => err && console.error(err))
 		}
 	} catch (error) {
 		throw new Error(error)
