@@ -21,6 +21,8 @@
 
 ## Concept
 
+[Visualisatie](./Visualisatie.png)
+
 ## Learning process
 
 ## Credits

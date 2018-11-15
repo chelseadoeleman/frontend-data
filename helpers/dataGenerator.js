@@ -56,56 +56,63 @@ const getTransformRatingData = (chunk) => {
 }
 
 
-const getAllResults = () => {
+const getAllResults = async () => {
+
     const basics = [] 
-    basicReadStream
+    const titles = []
+    const crews = []
+    const ratings = []
+    
+    await basicReadStream
         .on('data', chunk => {
             basics.push(getTransformBasicData(chunk))
         })
-        .on('end', async () => {
+        .on('end', () => {
             console.log(basics)
-            const title = []
-            filmsReadStream
-                .on('data', chunk => {
-                    title.push(getTransformTitleData(chunk))
-                })
-                .on('end', async () => {
-                    console.log(title)
-                    const crew = []
-                    crewReadStream
-                        .on('data', chunk => {
-                            crew.push(getTransformCrewData(chunk))
-                        })
-                        .on('end', async () => {
-                            console.log(crew)
-                            const rating = []
-                            ratingReadStream
-                                .on('data', chunk => {
-                                    rating.push(getTransformRatingData(chunk))
-                                })
-                                .on('end', async () => {
-                                    console.log(rating)
-                                })
-                                })
-                        })
         })
-        return basics
+        await filmsReadStream
+                .on('data', chunk => {
+                    titles.push(getTransformTitleData(chunk))
+                })
+                .on('end', () => {
+                    console.log(titles)
+                })
+        await crewReadStream
+        .on('data', chunk => {
+            crews.push(getTransformCrewData(chunk))
+        })
+        .on('end', () => {
+            console.log(crews)
+        })
+        await ratingReadStream
+                .on('data', chunk => {
+                    ratings.push(getTransformRatingData(chunk))
+                })
+                .on('end', () => {
+                    console.log(ratings)
+                })
+        
+
+        const getProducerFromNameId = (id) => {
+            return basics.nameId.find(nameId => nameId === id)
+        }
+        
+        const getProducerId = crews.map(crew => crew.producerId)
+
+        const transformedProducer = getProducerFromNameId(getProducerId)
+
+        console.log(transformedProducer)
+    
+        // Connect every id and name to producer id 
+
+        // Hier ga je de data koppelen aan elkaar met filters en maps 
+        // (zoeken naar de id in de andere objecten etc., dat lukt je wel)
+        // Uiteindelijk wil je denk ik 1 array hebben van omgevormde objecten, 
+        // die je dan returnt naar de index.js, zodat je daar vervolgens kunt zoeken 
+        // door de data op basis van de data uit de OBA API (wss kom je hier morgen toch pas aan toe).
 }
 
-(async () => {
-    
-})
-
-
-// (async () => {
-// const wstream = fs.createWriteStream('transformBasicData.json')
-
-// for await (const chunk of basicReadStream) {
-//     wstream.write(JSON.stringify(getTransformBasicData(chunk)))
-// }
-
-// wstream.end()
-// })()
+console.log(getAllResults())
 
 
 
