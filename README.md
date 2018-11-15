@@ -21,7 +21,7 @@
 
 ## Concept
 
-[Visualisatie](./Visualisatie.png)
+![Visualisatie](./Visualisatie.png)
 
 ## Learning process
 
