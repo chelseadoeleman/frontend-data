@@ -1,2 +1,7 @@
 .env
 node_modules
+name.basics.tsv
+title.akas.tsv
+title.crew.tsv
+title.ratings.tsv
+transformBasicData.json
