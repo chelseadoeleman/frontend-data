@@ -7,7 +7,7 @@
 ## Table of Contents
 * [End product](#end-product) 
 * [How to install](#how-to-install) 
-* [The data](#the-data) 
+* [Oba Api](#the-data) 
 * [Concept](#concept)
 * [Learning process](#learning-process)
 * [Credits](#credits)
@@ -16,6 +16,18 @@
 * [License](#license)
 
 ## How to install
+
+## Oba Api
+
+## Concept
+
+## Learning process
+
+## Credits
+
+## Resources
+
+## Packages
 
 ## License
 This repository is licensed as [MIT](license) by [Chelsea Doeleman](https://github.com/chelseadoeleman), 2018
