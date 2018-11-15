@@ -56,6 +56,45 @@ const getTransformRatingData = (chunk) => {
 }
 
 
+const getAllResults = () => {
+    const basics = [] 
+    basicReadStream
+        .on('data', chunk => {
+            basics.push(getTransformBasicData(chunk))
+        })
+        .on('end', async () => {
+            console.log(basics)
+            const title = []
+            filmsReadStream
+                .on('data', chunk => {
+                    title.push(getTransformTitleData(chunk))
+                })
+                .on('end', async () => {
+                    console.log(title)
+                    const crew = []
+                    crewReadStream
+                        .on('data', chunk => {
+                            crew.push(getTransformCrewData(chunk))
+                        })
+                        .on('end', async () => {
+                            console.log(crew)
+                            const rating = []
+                            ratingReadStream
+                                .on('data', chunk => {
+                                    rating.push(getTransformRatingData(chunk))
+                                })
+                                .on('end', async () => {
+                                    console.log(rating)
+                                })
+                                })
+                        })
+        })
+        return basics
+}
+
+(async () => {
+    
+})
 
 
 // (async () => {
@@ -69,45 +108,4 @@ const getTransformRatingData = (chunk) => {
 // })()
 
 
-const basics = []
-basicReadStream
-    .on('data', chunk => {
-        basics.push(getTransformBasicData(chunk))
-    })
-    .on('end', async () => {
-        console.log(basics)
-        const title = []
-        filmsReadStream
-            .on('data', chunk => {
-                title.push(getTransformTitleData(chunk))
-            })
-            .on('end', async () => {
-                console.log(title)
-                const crew = []
-                crewReadStream
-                    .on('data', chunk => {
-                        crew.push(getTransformCrewData(chunk))
-                    })
-                    .on('end', async () => {
-                        console.log(crew)
-                        const rating = []
-                        ratingReadStream
-                            .on('data', chunk => {
-                                rating.push(getTransformRatingData(chunk))
-                            })
-                            .on('end', async () => {
-                                console.log(crew)
-                            })
-                            })
-                    })
-    })
-
-const getAllResults = () => {
-    return {
-        
-    }
-
-}
-    // })
-// }
 
