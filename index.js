@@ -23,7 +23,8 @@ const search = async (q, facet) => {
 		refine: true,
 		facet,
 		// Return amount of results 
-		count: 100,
+		// count: 100,
+		count: Infinity,
 		filter: (result) => {
 			const publicationYear = helpers.getPublicationYearFromResult(result)
 			const currentYear = new Date().getFullYear()

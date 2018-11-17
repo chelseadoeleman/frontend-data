@@ -1,0 +1,163 @@
+[{
+    "title": "Jurassic world",
+    "duration": 124,
+    "publicationYear": 2015,
+    "producer": "Colin Trevorrow",
+    "rating": 7.0,
+    "genre": ["Avontureroman", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395400430&isbn=&lid=&aut=&ti=&size=70"
+},{
+    "title": "De GVR",
+    "duration": 117,
+    "publicationYear": 2016,
+    "producer": "Steven Spielberg",
+    "rating": 6.4,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407153837&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The adventures of Tintin : the secret of The Unicorn",
+    "duration": 102,
+    "publicationYear": 2012,
+    "producer": "Steven Spielberg",
+    "rating": 7.3,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339366680&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Barbie & het diamantkasteel",
+    "duration": 85,
+    "publicationYear": 2008,
+    "producer": "Gino Nichele",
+    "rating": 6.3,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314626913&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Up",
+    "duration": 93,
+    "publicationYear": 2009,
+    "producer": "Pete Docter",
+    "rating": 8.3,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322972183&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fantastic Mr. Fox",
+    "duration": 86,
+    "publicationYear": 2010,
+    "producer": "Wes Anderson",
+    "rating": 7.8,
+    "genre": ["Dieren", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327838906&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rango",
+    "duration": 103,
+    "publicationYear": 2011,
+    "producer": "Gore Verbinski",
+    "rating": 7.2,
+    "genre": "Western",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334063353&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The hunger games",
+    "duration": 136,
+    "publicationYear": 2012,
+    "producer": "Gary Ross",
+    "rating": 7.2,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343198398&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Hobbit",
+    "duration": 169,
+    "publicationYear": 2013,
+    "producer": "Peter Jackson",
+    "rating": 7.8,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354987488&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Maleficent",
+    "duration": 97,
+    "publicationYear": 2014,
+    "producer": "Robert Stromber",
+    "rating": 7.0,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382696263&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The book of life",
+    "duration": 92,
+    "publicationYear": 2015,
+    "producer": "Jorge R. Gutiérrez",
+    "rating": 7.3,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387613242&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The legend of Korra",
+    "duration": 153,
+    "publicationYear": 2015,
+    "producer": "Eiro Shirahama",
+    "rating": 7.5,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396088260&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Everything, everything",
+    "duration": 96,
+    "publicationYear": 2017,
+    "producer": "Stella Meghie",
+    "rating": 6.4,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413351386&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The good dinosaur",
+    "duration": 100,
+    "publicationYear": 2016,
+    "producer": "Peter Sohn",
+    "rating": 6.7,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400977818&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Teenage Mutant Ninja Turtles: Out of the shadows",
+    "duration": 112,
+    "publicationYear": 2016,
+    "producer": "Dave Green",
+    "rating": 6.0,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406928126&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fantastic beasts and where to find them",
+    "duration": 133,
+    "publicationYear": 2017,
+    "producer": "David Yates",
+    "rating": 7.3,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40874281X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Miss Peregrine's home for peculiar children",
+    "duration": 127,
+    "publicationYear": 2017,
+    "producer": "Tim Burton",
+    "rating": 6.7,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407948201&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Avengers: infinity war",
+    "duration": 149,
+    "publicationYear": 2018,
+    "producer": "Anthony Russo",
+    "rating": 8.6,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419006613&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Vaiana",
+    "duration": 103,
+    "publicationYear": 2017,
+    "producer": "Ron Clements",
+    "rating": 7.6,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}
+] 
+
+
+
+
+
+
+
+
+

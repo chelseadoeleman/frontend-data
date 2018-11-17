@@ -1,7 +1,9 @@
 body {
-    font: 14px Raleway;
-    color: #6b6b6b;
+    font-family: Raleway;
+    font-size: 14px;
+    color: #000000;
     font-weight: 700;
+    background-color: #2b2b2b;
 }
 
 h1 {
@@ -13,36 +15,4 @@ h1 {
     display: flex;
     justify-content: center;
 }
-  
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #6b6b6b;
-  shape-rendering: crispEdges;
-}
-  
-.tick {
-    font: 12px Raleway;
-    font-weight: 200;
-    stroke: #6b6b6b;
-}
-  
-div.tooltip {	
-    position: absolute;			
-    text-align: center;
-    min-width: 80px;				
-    height: 18px;					
-    padding: 5px;				
-    font: 12px Raleway;
-    font-weight: 600;		
-    background: black;	
-    border: 0px;		
-    border-radius: 8px;			
-    pointer-events: none;
-    color: white;			
-}
-  
-div.html {
-    align-items: center;
-    margin: 5px;
-}
+
