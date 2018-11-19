@@ -1,14 +1,14 @@
 const path = require('path')
 const flatten = require('lodash.flatten')
 const fs = require('fs')
-const basicReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/names.tsv`, 'utf8')
-const filmsReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.tsv`, 'utf8')
-const crewReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/crew.tsv`, 'utf8')
-const ratingReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/rating.tsv`, 'utf8')
-// const basicReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/name.basics.tsv`, 'utf8')
-// const filmsReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.akas.tsv`, 'utf8')
-// const crewReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.crew.tsv`, 'utf8')
-// const ratingReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.ratings.tsv`, 'utf8')
+// const basicReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/names.tsv`, 'utf8')
+// const filmsReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.tsv`, 'utf8')
+// const crewReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/crew.tsv`, 'utf8')
+// const ratingReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/rating.tsv`, 'utf8')
+const basicReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/name.basics.tsv`, 'utf8')
+const filmsReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.akas.tsv`, 'utf8')
+const crewReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.crew.tsv`, 'utf8')
+const ratingReadStream = fs.createReadStream(`${path.join(__dirname, '../data')}/title.ratings.tsv`, 'utf8')
 
 
 const getTransformBasicData = (chunk) => {
@@ -72,66 +72,48 @@ const getAllResults = async () => {
         .on('data', chunk => {
             basics.push(getTransformBasicData(chunk))
         })
-        await filmsReadStream
-                .on('data', chunk => {
-                    titles.push(getTransformTitleData(chunk))
-                })
-        await crewReadStream
+    await filmsReadStream
+            .on('data', chunk => {
+                titles.push(getTransformTitleData(chunk))
+            })
+    await crewReadStream
         .on('data', chunk => {
             crews.push(getTransformCrewData(chunk))
         })
-        await ratingReadStream
-                .on('data', chunk => {
-                    ratings.push(getTransformRatingData(chunk))
-                })
-                .on('end', () => {
-                    const getProducerFromNameId = (producerId) => {
-                        // console.log(producerId)
-                        return flatten(basics)
-                            .filter(b => b.nameId === producerId)
-                    }
-                    // const producerIds = flatCrew.map(crew => crew.producerId)
-                    // const uniqueProducerIds = [...new Set(producerIds)]
-                    // const producersFromId = uniqueProducerIds.map(getProducerFromNameId)
-                    // console.log("Done checking names!")
+    await ratingReadStream
+        .on('data', chunk => {
+            ratings.push(getTransformRatingData(chunk))
+        })
+        .on('end', async () => {
+            console.log("Start function")
+            const flatCrews = flatten(crews)
+            const flatBasics = flatten(basics)
+            const flatTitles = flatten(titles)
+            const flatRatings = flatten(ratings)
 
-                    const flatCrews = flatten(crews)
-                    const flatBasics = flatten(basics)
-                    const flatTitles = flatten(titles)
-                    const flatRatings = flatten(ratings)
+            const movies = await flatRatings.map(rating => {
+                console.log(rating)
+                return {
+                    ...rating,
+                    ...flatTitles.filter(title => title.titleId === rating.titleId)[0],
+                    ...flatCrews.filter(c => rating.titleId === c.titleId)[0]
+                }
+            })
 
-                    const movies = flatRatings.map(rating => {
-                        return {
-                            ...rating,
-                            ...flatTitles.filter(title => title.titleId === rating.titleId)[0],
-                            ...flatCrews.filter(c => rating.titleId === c.titleId)[0]
-                        }
-                    })
+            const results = await movies.map(movie => {
+                console.log(movie)
+                return {
+                    ...movie,
+                    ...flatBasics.filter(b => movie.producerId === b.nameId)[0]
+                }
+            })
 
-                    const results = movies.map(movie => {
-                        return {
-                            ...movie,
-                            ...flatBasics.filter(b => movie.producerId === b.nameId)[0]
-                        }
-                    })
-                    console.log(results)
+            console.log(results)
 
-                    
-                    // console.log(producersFromId)
-                })
-        
-
-
-        // Connect every id and name to producer id 
-
-        // Hier ga je de data koppelen aan elkaar met filters en maps 
-        // (zoeken naar de id in de andere objecten etc., dat lukt je wel)
-        // Uiteindelijk wil je denk ik 1 array hebben van omgevormde objecten, 
-        // die je dan returnt naar de index.js, zodat je daar vervolgens kunt zoeken 
-        // door de data op basis van de data uit de OBA API (wss kom je hier morgen toch pas aan toe).
+            fs.writeFile("imdbData.json", JSON.stringify(results), (err) => err && console.error(err))
+        })
 }
 
 getAllResults()
-
 
 

@@ -40,7 +40,7 @@ const search = async (q, facet) => {
 // Shout out naar Maikel
 (async () => {
 	try {
-		const results = await search("language:eng", "type(movie)")
+		const results = await search("language:eng", ["type(movie)", "genre(humor)"])
 		// ("harry potter", ["type(book)", "auteur(J.K. Rowling)"])
 		// meerdere facetten toevoegen thanks to Jessie
 

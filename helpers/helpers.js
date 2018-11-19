@@ -3,6 +3,25 @@
 // const _range = require ("lodash.range")
 // const fs = require("fs")
 
+// Return new object while mapping over all results to get only the specific result for research
+const getTransformedResultFromResults = (results) => {
+    return results 
+        ? results
+            .filter(result => {
+                const duration = getDurationFromResult(result)
+                return !duration.includes('uur') 
+                    && !duration.includes('..')      
+            })
+            .map(result => ({
+                title: getTitleFromResult(result),
+                duration: getDurationTime(getDurationFromResult(result)),
+                publicationYear: getPublicationYearFromResult(result),
+                genre: getGenreFromResult(result),
+                coverImage: getCoverImageFromResult(result)
+            })) 
+        : []
+}
+
 // Checks to make sure the results are there in the data and will not unexpectedly break.
 const getTitleFromResult = (result) => {
     return result.titles
@@ -94,78 +113,6 @@ const transFormDuration = (rawDuration) => {
             ? plusArray.reduce((acc, curr) => acc + Number(curr), 0)
             : Number(removeAbout2)
     }
-    // const replaceMultiply = removeMin.replace('x', '')
-    // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
-
-    // // krijg alleen de tijd van description en pak daarvan de linkerkant
-    // let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
-    // // begin vanaf het eerstje (
-    // const firstHook = duration && duration.indexOf("(")
-    // const transformedDuration = removeTokensFromDuration(hasHook, duration, firstHook)
-
-//     const descriptionWithDuration = duration && author.split(")")
-//     let duration = descriptionWithDuration && descriptionWithDuration.length && descriptionWithDuration[0]
-//     const firstHook = duration && duration.indexOf(")")
-//     // When there are no dots return "falsy" so it won't use the following function: getTransformedFirstName
-//     const hasHook = firstHook !== -1
-//     // Remove tokens from firstname with parameters to use in the that function
-//     const transformedDuration = removeTokensFromDuration(hasHook, duration, firstHook)
-//     // If there are dots return transformedFirstname else just the firstName 
-//     // Add gender to that equation
-//     const timeToUse = hasHook ? transformedDuration : duration
-//     return {
-//         duration: timeToUse,
-//     }
-        // return getDurationTime
-}
-
-// // Remove tokens from duration
-// const removeTokensFromDuration = (hasHook, duration, firstHook) => {
-    
-//     // verwijder alles voor dit haakje (
-//     // verander x in *
-//     // maak er een nummer van 
-//     // gooi het in het nieuwe object
-
-//     // verwijder alles na het eerst haakje
-//     // One step back from the first dot
-//     const removeStartIndex = hasHook ? firstHook - 1 : undefined
-
-//     const endIndex = duration && duration.length
-//     // Remove the tokens and check if the firstName = not undefined
-//     const tokensToRemove = duration && removeStartIndex !== undefined && duration.slice(removeStartIndex, endIndex)
-//     // Remove space from firstName after removing the tokens
-//     const transformedFirstName = tokensToRemove && duration.replace(tokensToRemove, '').trim()
-//     return transformedFirstName
-
-
-//     // const removeStartIndex = hasHook ? firstHook - 1 : undefined
-
-//     // const endIndex = duration && duration.length
-//     // // Remove the tokens and check if the firstName = not undefined
-//     // const tokensToRemove = duration && removeStartIndex !== undefined && duration.slice(removeStartIndex, endIndex)
-//     // // Remove space from firstName after removing the tokens
-//     // const transformedFirstName = tokensToRemove && duration.replace(tokensToRemove, '').trim()
-//     // return transformedFirstName
-// }
-
-// Return new object while mapping over all results to get only the specific result for research
-const getTransformedResultFromResults = (results) => {
-    return results 
-        ? results
-            .filter(result => {
-                const duration = getDurationFromResult(result)
-                return !duration.includes('uur') 
-                    && !duration.includes('..')      
-            })
-            .map(result => ({
-                title: getTitleFromResult(result),
-                duration: getDurationTime(getDurationFromResult(result)),
-                publicationYear: getPublicationYearFromResult(result),
-                genre: getGenreFromResult(result),
-                coverImage: getCoverImageFromResult(result)
-            })) 
-        : []
 }
 
 // Export the following functions
