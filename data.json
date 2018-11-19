@@ -1,219 +1,9 @@
 [{
-    "title": "The legend of Korra",
-    "duration": 153,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396088260&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Everything, everything",
-    "duration": 96,
-    "publicationYear": 2017,
-    "genre": "Romantisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413351386&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Rio 2",
-    "duration": 87,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=376464224&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The hunger games",
-    "duration": 136,
-    "publicationYear": 2012,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343198398&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Diary of a wimpy kid 2 : Rodrick rules",
-    "duration": 95,
-    "publicationYear": 2012,
-    "genre": "School",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339410035&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Jasper & Julia en de dappere ridders 3D",
-    "duration": 90,
-    "publicationYear": 2014,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=372684998&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Cloudy with a Chance of Meatballs 2",
-    "duration": 91,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374338892&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Atlantis",
-    "duration": 585,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=373656971&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Odd Thomas",
-    "duration": 93,
-    "publicationYear": 2014,
-    "genre": "Thriller",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375414061&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "TinkerBell en de piraten",
-    "duration": 78,
-    "publicationYear": 2014,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380231794&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "BarbieTM en de geheime deur",
-    "duration": 81,
-    "publicationYear": 2014,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381318753&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Maleficent",
-    "duration": 97,
-    "publicationYear": 2014,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382696263&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Mio in the land of Faraway",
-    "duration": 94,
-    "publicationYear": 2014,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=385912382&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Lego Ninjago: Masters of Spinjitzu",
-    "duration": 286,
-    "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387622063&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Billy Elliot",
-    "duration": 105,
-    "publicationYear": 2015,
-    "genre": "Sociaal/politiek verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383669472&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The book of life",
-    "duration": 92,
-    "publicationYear": 2015,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387613242&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Seventh son",
-    "duration": 97,
-    "publicationYear": 2015,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393769542&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Despicable me",
-    "duration": 184,
-    "publicationYear": 2015,
-    "genre": "Detective",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393767892&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Paddington",
-    "duration": 95,
-    "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394156102&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Lego Ninjago: Masters of Spinjitzu",
-    "duration": 169,
-    "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394217861&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Lego Ninjago: Masters of Spinjitzu",
-    "duration": 169,
-    "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394217691&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Jurassic world",
-    "duration": 124,
-    "publicationYear": 2015,
-    "genre": ["Avontureroman", "Sciencefiction"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395400430&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "De Vijf en het Groene Oogmysterie",
-    "duration": 93,
-    "publicationYear": 2015,
-    "genre": "Detective",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395128536&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Avengers: age of Ultron",
-    "duration": 135,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396906850&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Cinderella",
-    "duration": 101,
-    "publicationYear": 2015,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397241054&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Le petit prince",
-    "duration": 108,
-    "publicationYear": 2015,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397731191&isbn=&lid=&aut=&ti=&size=70"
-}, {
     "title": "Tom and Jerry collection",
     "duration": 1113,
     "publicationYear": 2015,
     "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=398056420&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Batman unlimited: Monster Mayhem : original movie",
-    "duration": 77,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397925409&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The good dinosaur",
-    "duration": 100,
-    "publicationYear": 2016,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400977818&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Batman unlimited: Mech vs mutants",
-    "duration": 72,
-    "publicationYear": 2016,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406394202&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Finding Dory",
-    "duration": 97,
-    "publicationYear": 2016,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407397663&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Miss Peregrine's home for peculiar children",
-    "duration": 127,
-    "publicationYear": 2017,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407948201&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Fantastic beasts and where to find them",
-    "duration": 133,
-    "publicationYear": 2017,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40874281X&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Red dog: true blue",
-    "duration": 88,
-    "publicationYear": 2017,
-    "genre": "Dieren",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412866366&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The Avengers 1-3",
-    "duration": 427,
-    "publicationYear": 2018,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=418986878&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Up",
-    "duration": 93,
-    "publicationYear": 2009,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322972183&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "Fantastic Mr. Fox",
     "duration": 86,
@@ -221,71 +11,11 @@
     "genre": ["Dieren", "Humor"],
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327838906&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "The maze runner",
-    "duration": 109,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=385977352&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Project T",
-    "duration": 129,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396021980&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Barbie & het diamantkasteel",
-    "duration": 85,
-    "publicationYear": 2008,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314626913&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The Hobbit",
-    "duration": 169,
-    "publicationYear": 2013,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354987488&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Walking with dinosaurs",
-    "duration": 84,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374557853&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Koemba: de zebra die zijn strepen kwijt is",
-    "duration": 85,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380509091&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Lego Ninjago: Masters of Spinjitzu",
-    "duration": 286,
-    "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38365906X&isbn=&lid=&aut=&ti=&size=70"
-}, {
     "title": "Roald Dahl's Esio Trot",
     "duration": 88,
     "publicationYear": 2015,
     "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393131637&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Pups united",
-    "duration": 86,
-    "publicationYear": 2015,
-    "genre": ["Dieren", "Sport"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395446384&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "De GVR",
-    "duration": 117,
-    "publicationYear": 2016,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407153837&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Paddington 2",
-    "duration": 99,
-    "publicationYear": 2018,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416840108&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "Harry Potter and the Deathly Hallows, part 1",
     "duration": 140,
@@ -299,137 +29,11 @@
     "genre": ["Humor", "Sprookjes"],
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370172523&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "The adventures of Tintin : the secret of The Unicorn",
-    "duration": 102,
-    "publicationYear": 2012,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339366680&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Rise of the Guardians",
-    "duration": 97,
-    "publicationYear": 2013,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=355358484&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The diary of a teenage girl",
-    "duration": 102,
-    "publicationYear": 2015,
-    "genre": "Romantisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396916422&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Brave",
-    "duration": 100,
-    "publicationYear": 2012,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351196897&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Breaking dawn : part 1",
-    "duration": 113,
-    "publicationYear": 2012,
-    "genre": "Romantisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=340286032&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Rango",
-    "duration": 103,
-    "publicationYear": 2011,
-    "genre": "Western",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334063353&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Against the wild",
-    "duration": 90,
-    "publicationYear": 2014,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375878130&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The legend of Korra",
-    "duration": 138,
-    "publicationYear": 2014,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395445507&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Pirates of the Caribbean: Salazar's revenge",
-    "duration": 129,
-    "publicationYear": 2017,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=411327224&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The Avengers: infinity war",
-    "duration": 149,
-    "publicationYear": 2018,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419006613&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Harry Potter en de vuurbeker",
-    "duration": 151,
-    "publicationYear": 2011,
-    "genre": ["School", "Sprookjes"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337939497&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "TinkerBell and the secret of wings",
-    "duration": 75,
-    "publicationYear": 2012,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35263796X&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "De ultieme Spy kids 4 dvd collection",
-    "duration": 360,
-    "publicationYear": 2014,
-    "genre": "Detective",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375314695&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Harlock : space pirate",
-    "duration": 115,
-    "publicationYear": 2015,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390786365&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The legend of Korra",
-    "duration": 159,
-    "publicationYear": 2014,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395450519&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Room",
-    "duration": 118,
-    "publicationYear": 2016,
-    "genre": "Psychologisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402345827&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Trolls",
-    "duration": 92,
-    "publicationYear": 2017,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408458283&isbn=&lid=&aut=&ti=&size=70"
-}, {
     "title": "The trip",
     "duration": 107,
     "publicationYear": 2011,
     "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338893644&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Harry Potter and the Deathly Hallows, part 1",
-    "duration": 140,
-    "publicationYear": 2011,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337939691&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Harry Potter en de steen der wijzen",
-    "duration": 147,
-    "publicationYear": 2011,
-    "genre": ["School", "Sprookjes"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338041117&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Peter Pan",
-    "duration": 76,
-    "publicationYear": 2012,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352694904&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "12 years a slave",
-    "duration": 128,
-    "publicationYear": 2014,
-    "genre": "Racisme",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=372689361&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "American hustle",
     "duration": 138,
@@ -437,129 +41,3765 @@
     "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377031615&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "A dog named Christmas",
-    "duration": 95,
-    "publicationYear": 2012,
-    "genre": ["Dieren", "Familieroman"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353740705&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The legend of Korra",
-    "duration": 138,
-    "publicationYear": 2013,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395445426&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Doctor Foster",
-    "duration": 275,
-    "publicationYear": 2016,
-    "genre": "Thriller",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402488865&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Teenage Mutant Ninja Turtles: Out of the shadows",
-    "duration": 112,
-    "publicationYear": 2016,
-    "genre": "Sciencefiction",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406928126&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Fifty shades darker",
-    "duration": 112,
-    "publicationYear": 2017,
-    "genre": "Erotiek",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=410871842&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "From time to time",
-    "duration": 92,
-    "publicationYear": 2010,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=330072129&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Inkheart",
-    "duration": 106,
-    "publicationYear": 2009,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321888960&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Midsomer murders",
-    "duration": 400,
-    "publicationYear": 2009,
-    "genre": "Detective",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323595618&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Harry Potter en de geheime kamer",
-    "duration": 155,
-    "publicationYear": 2011,
-    "genre": ["School", "Sprookjes"],
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338041532&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "Holes",
-    "duration": 115,
-    "publicationYear": 2010,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34449117X&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The wolf of Wall Street",
-    "duration": 212,
-    "publicationYear": 2014,
-    "genre": "Biografie",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374787700&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The double",
-    "duration": 93,
-    "publicationYear": 2014,
-    "genre": "Psychologisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380490986&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The following",
-    "duration": 630,
-    "publicationYear": 2014,
-    "genre": "Thriller",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38062866X&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The invisible woman",
-    "duration": 108,
-    "publicationYear": 2014,
-    "genre": "Romantisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380078856&isbn=&lid=&aut=&ti=&size=70"
-}, {
-    "title": "The boxtrolls",
-    "duration": 82,
-    "publicationYear": 2015,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390674222&isbn=&lid=&aut=&ti=&size=70"
-}, {
     "title": "Birdman",
     "duration": 119,
     "publicationYear": 2015,
     "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391785257&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "Lego legends of Chima",
-    "duration": 441,
+    "title": "Night at the museum 3: secret of the tomb",
+    "duration": 94,
     "publicationYear": 2015,
-    "genre": "Avontureroman",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39342085X&isbn=&lid=&aut=&ti=&size=70"
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39245629X&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "The last rescue",
-    "duration": 105,
-    "publicationYear": 2015,
-    "genre": "Oorlog en verzet",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393522717&isbn=&lid=&aut=&ti=&size=70"
+    "title": "Marley & me : the puppy years",
+    "duration": 82,
+    "publicationYear": 2011,
+    "genre": ["Dieren", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337921857&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "War & peace",
-    "duration": 360,
-    "publicationYear": 2016,
-    "genre": "Romantisch verhaal",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402482603&isbn=&lid=&aut=&ti=&size=70"
+    "title": "A weekend in Paris",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=379242591&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "Death in paradise",
-    "duration": 400,
-    "publicationYear": 2016,
-    "genre": "Detective",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402563573&isbn=&lid=&aut=&ti=&size=70"
+    "title": "The big bang theory",
+    "duration": 480,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382023811&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "Vaiana",
-    "duration": 103,
+    "title": "Hitman's bodyguard",
+    "duration": 111,
     "publicationYear": 2017,
-    "genre": "Sprookjes",
-    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412784459&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sex and the city 2",
+    "duration": 146,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329720856&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 507,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369836855&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls",
+    "duration": 360,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383657482&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Modern times",
+    "duration": 83,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363984410&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hail, Caesar!",
+    "duration": 106,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40234605X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de gevangene van Azkaban",
+    "duration": 136,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320817636&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de steen der wijzen",
+    "duration": 147,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320815854&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Chef",
+    "duration": 115,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390773220&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Birds of a feather",
+    "duration": 240,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394182014&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls",
+    "duration": 260,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=399249362&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The night before",
+    "duration": 101,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402436180&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The legend of Barney Thomson",
+    "duration": 93,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402380967&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "War dogs",
+    "duration": 109,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407598162&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Nativity!",
+    "duration": 105,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329802518&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "You will meet a tall dark stranger",
+    "duration": 98,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333572262&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ted",
+    "duration": 217,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397609914&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mamma Mia",
+    "duration": 104,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315181028&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bridesmaids",
+    "duration": 120,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338289461&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Men in black II",
+    "duration": 84,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344541274&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hope Springs",
+    "duration": 97,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353250465&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Delivery man",
+    "duration": 103,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374562369&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "An idiot abroad",
+    "duration": 135,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374303835&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Life of crime",
+    "duration": 94,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383804019&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Frank",
+    "duration": 95,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393817156&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "5 to 7",
+    "duration": 95,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397750560&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The nice guys",
+    "duration": 116,
+    "publicationYear": 2016,
+    "genre": ["Detective", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406365156&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Up in the air",
+    "duration": 105,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326818669&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Marley & me",
+    "duration": 110,
+    "publicationYear": 2009,
+    "genre": ["Dieren", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322142865&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Made in Dagenham",
+    "duration": 113,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Sociaal/politiek verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337710104&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Midnight in Paris",
+    "duration": 100,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339329157&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The guard",
+    "duration": 92,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33964589X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Silver linings playbook",
+    "duration": 122,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357243366&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Quartet",
+    "duration": 94,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363923764&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons",
+    "duration": 575,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369586301&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cloudburst",
+    "duration": 93,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370136470&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter : complete 8-film collection",
+    "duration": 1191,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374933650&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 215,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383686644&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dear white people",
+    "duration": 106,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394205561&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Central intelligence",
+    "duration": 107,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407636838&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bridget Jones's baby",
+    "duration": 123,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408195061&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls",
+    "duration": 280,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408665785&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls",
+    "duration": 280,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=410740241&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big sick",
+    "duration": 120,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413289486&isbn=9789461875013&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brigsby Bear",
+    "duration": 100,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=41637848X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Home again",
+    "duration": 97,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417481446&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Julie & Julia",
+    "duration": 118,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323955444&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "It's complicated",
+    "duration": 118,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=325769001&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Morning glory",
+    "duration": 103,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=335864651&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Chaplin collection",
+    "duration": 904,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336253303&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brassed off",
+    "duration": 103,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337685150&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Horrible bosses",
+    "duration": 94,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339149086&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 301,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345482115&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ronal the barbarian",
+    "duration": 89,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352767286&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "To Rome with love",
+    "duration": 110,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354791710&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Song for Marion",
+    "duration": 93,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363351302&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 330,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369188128&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "New girl",
+    "duration": 540,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=36927704X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Annie Claus is coming to town",
+    "duration": 90,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369481070&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 300,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=364457899&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "RED 2",
+    "duration": 116,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369582187&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 326,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374311900&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Grand Budapest Hotel",
+    "duration": 116,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375546723&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "22 Jump Street",
+    "duration": 112,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382024265&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The great dictator",
+    "duration": 120,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393487806&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 480,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=398262012&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Our brand is crisis",
+    "duration": 107,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=405059264&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The late bloomer",
+    "duration": 90,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40663646X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Popstar: never stop never stopping",
+    "duration": 87,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406944490&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ghostbusters",
+    "duration": 116,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407533176&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Café Society",
+    "duration": 96,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407605339&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Skiptrace",
+    "duration": 107,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407985611&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sausage party",
+    "duration": 89,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407945520&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Why him?",
+    "duration": 111,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408986247&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Soof 2",
+    "duration": 100,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408571292&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Going in style",
+    "duration": 96,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=410847003&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mike and Dave need wedding dates",
+    "duration": 98,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=411333178&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Amateur night",
+    "duration": 92,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412513374&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Wilde wedding",
+    "duration": 95,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=41617017X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Downsizing",
+    "duration": 135,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417059884&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The gringo",
+    "duration": 110,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419288635&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Did you hear about the Morgans?",
+    "duration": 99,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328058505&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Four lions",
+    "duration": 102,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333570863&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The extra man",
+    "duration": 108,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334257093&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "One day",
+    "duration": 103,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339136375&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Friends with benefits",
+    "duration": 105,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339377615&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The ramen girl",
+    "duration": 98,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344133036&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "21 Jump Street",
+    "duration": 105,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345589637&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Laurel & Hardy collection",
+    "duration": 270,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351124284&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Your sister's sister",
+    "duration": 100,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354791559&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Seven psychopaths",
+    "duration": 106,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354806548&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons",
+    "duration": 465,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357211863&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "About time",
+    "duration": 123,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370820509&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big C",
+    "duration": 350,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377313971&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fading gigolo",
+    "duration": 90,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381241300&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "About last night",
+    "duration": 96,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382723082&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The second best exotic Marigold Hotel",
+    "duration": 122,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39280431X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Spy",
+    "duration": 120,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395041023&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Man up",
+    "duration": 88,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396534570&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brooklyn nine-nine",
+    "duration": 300,
+    "publicationYear": 2015,
+    "genre": ["Detective", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397798768&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The intern",
+    "duration": 116,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=399243437&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Togetherness",
+    "duration": 208,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=399249222&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The lobster",
+    "duration": 118,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400957833&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Veep",
+    "duration": 270,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400999129&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Daddy's home",
+    "duration": 96,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402343956&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How to be single",
+    "duration": 105,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402334388&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dad's army",
+    "duration": 95,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Oorlog en verzet"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=405374615&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sisters",
+    "duration": 118,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406263205&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Whiskey Tango Foxtrot",
+    "duration": 112,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Oorlog en verzet"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406394822&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 480,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406789150&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Absolutely fabulous: the movie",
+    "duration": 90,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407889019&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 432,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=411230115&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Kingsman: the golden circle",
+    "duration": 141,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413575926&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hampstead",
+    "duration": 102,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413764273&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A little something for your birthday",
+    "duration": 90,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416472737&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The lovers",
+    "duration": 97,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416362230&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Captain Underpants : the first epic movie",
+    "duration": 89,
+    "publicationYear": 2018,
+    "genre": ["Humor", "School"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416575234&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Finding your feet",
+    "duration": 111,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=418778531&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Gun shy",
+    "duration": 90,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=418872538&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Enchanted",
+    "duration": 103,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310266734&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Vicky Cristina Barcelona",
+    "duration": 97,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318037262&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter en de geheime kamer",
+    "duration": 155,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sprookjes"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320817032&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Pink Panther 2",
+    "duration": 88,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321329325&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 68,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327586389&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Whatever works",
+    "duration": 91,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326064990&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Zombieland",
+    "duration": 84,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328751715&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Greenberg",
+    "duration": 103,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329165933&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The adjustment bureau",
+    "duration": 100,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334077664&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "(Untitled)",
+    "duration": 93,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336458304&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Just go with it",
+    "duration": 112,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337033862&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 345,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336123086&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Come fly with me",
+    "duration": 230,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338288708&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Something borrowed",
+    "duration": 112,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338216707&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Larry Crowne",
+    "duration": 94,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338789316&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hesher",
+    "duration": 102,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34138108X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hysteria",
+    "duration": 100,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341346896&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 400,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341682853&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mad dogs",
+    "duration": 173,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341648787&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Chaplin : Keystone collection",
+    "duration": 561,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341564575&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "From Prada to nada",
+    "duration": 102,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341762148&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The four-faced liar",
+    "duration": 87,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344348571&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Our idiot brother",
+    "duration": 90,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344262294&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Men in black",
+    "duration": 94,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344493407&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Men in black 3",
+    "duration": 101,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344543307&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jeff, who lives at home",
+    "duration": 79,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34438103X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Young adult",
+    "duration": 90,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344372014&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The dictator",
+    "duration": 83,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34551629X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "What to expect when you're expecting",
+    "duration": 114,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345516044&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "New girl",
+    "duration": 493,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351188592&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Magic Mike",
+    "duration": 106,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351941487&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Being Erica",
+    "duration": 495,
+    "publicationYear": 2012,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351190147&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bachelorette",
+    "duration": 90,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354986090&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sightseers",
+    "duration": 89,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=355351358&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Juan of the dead",
+    "duration": 92,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=356088952&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "I give it a year",
+    "duration": 98,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357431197&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big wedding",
+    "duration": 89,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=36392342X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Veep",
+    "duration": 280,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=37150273X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Prince Avalanche",
+    "duration": 89,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371674956&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fat kid rules the world",
+    "duration": 98,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=37254360X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Austenland",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374842434&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Miranda",
+    "duration": 177,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353789437&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big C",
+    "duration": 216,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=378175254&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A hard day's night",
+    "duration": 84,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380109069&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Magic in the moonlight",
+    "duration": 97,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=384105289&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The hundred-foot journey",
+    "duration": 122,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387612483&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Horrible bosses 2",
+    "duration": 104,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390934224&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Love, Rosie",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391028278&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Silicon Valley",
+    "duration": 240,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391800019&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Top five",
+    "duration": 102,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391863894&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Life after Beth",
+    "duration": 89,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393584933&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The one I love",
+    "duration": 91,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394200853&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jane the Virgin",
+    "duration": 880,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397603363&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Grandma",
+    "duration": 79,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400428202&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Burnt",
+    "duration": 101,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400819570&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hello, my name is Doris",
+    "duration": 95,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=404060196&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Maggie's plan",
+    "duration": 98,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407420959&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A royal night out",
+    "duration": 97,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406645302&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The meddler",
+    "duration": 99,
+    "publicationYear": 2017,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408455012&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Hollars",
+    "duration": 88,
+    "publicationYear": 2017,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408513985&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wild Oats",
+    "duration": 86,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408460784&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ballers",
+    "duration": 300,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Sport"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413352846&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Logan lucky",
+    "duration": 118,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413290123&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Daddy's home 2",
+    "duration": 100,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416915558&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "I feel pretty",
+    "duration": 110,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419148337&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "10 items or less",
+    "duration": 82,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317911511&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "17 again",
+    "duration": 98,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321260899&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The proposal",
+    "duration": 103,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323083749&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "(500) days of summer",
+    "duration": 90,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32576834X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Funny people",
+    "duration": 140,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326121668&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The men who stare at goats",
+    "duration": 90,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326477667&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "I love you Phillip Morris",
+    "duration": 102,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327711272&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Kick-ass",
+    "duration": 112,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32895828X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The spy next door",
+    "duration": 90,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32923997X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "She's out of my league",
+    "duration": 100,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329613278&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Not the Messiah : he's a very naughty boy",
+    "duration": 88,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329910973&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "George & Mildred",
+    "duration": 120,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331192039&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Life during wartime",
+    "duration": 96,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Psychologisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331644479&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Edelvrouw bedelvrouw",
+    "duration": 591,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331187108&isbn=9789089415899&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The other guys",
+    "duration": 111,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331666898&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Due date",
+    "duration": 91,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332299147&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tamara Drewe",
+    "duration": 111,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33238294X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "$5 a day",
+    "duration": 94,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332034380&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Love & other drugs",
+    "duration": 112,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33317223X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "No strings attached",
+    "duration": 104,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334049466&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Little Fockers",
+    "duration": 94,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333586964&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tucker & Dale vs evil",
+    "duration": 90,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334076110&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bringing up Daddy",
+    "duration": 93,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419580549&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Another kind of wedding",
+    "duration": 86,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419626913&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Reggie Perrin",
+    "duration": 180,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334261694&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hung",
+    "duration": 260,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334456584&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Happythankyoumoreplease",
+    "duration": 96,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336150164&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": null,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33626626X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons",
+    "duration": 540,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336125100&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 335,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336124112&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How do you know",
+    "duration": 116,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337117268&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Henry's crime",
+    "duration": 108,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337709777&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 267,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337902518&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Miranda",
+    "duration": 175,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338250344&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The infidel",
+    "duration": 100,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338674594&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 325,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338878912&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 324,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327504846&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 329,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317560840&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Crazy, stupid, love",
+    "duration": 113,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339149884&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tower heist",
+    "duration": 100,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339853573&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 490,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339774460&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Entourage",
+    "duration": 213,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343059126&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Burke & Hare",
+    "duration": 88,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=340992077&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hung",
+    "duration": 251,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344089215&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A thousand words",
+    "duration": 87,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=344381137&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": null,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345511921&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Salmon fishing in the Yemen",
+    "duration": 107,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345595483&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 330,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351188320&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Iron sky",
+    "duration": 89,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351124128&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A taste of romance",
+    "duration": 90,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345512340&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Friends with kids",
+    "duration": 107,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351121420&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Modern family",
+    "duration": 490,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351124535&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sugartown",
+    "duration": 180,
+    "publicationYear": 2012,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345513711&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The angels' share",
+    "duration": 96,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Sociaal/politiek verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353212989&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hit & run",
+    "duration": 95,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352774126&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How to make it in America",
+    "duration": 219,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352768401&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Timer",
+    "duration": 99,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353259683&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How I met your mother",
+    "duration": 490,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35347424X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons",
+    "duration": 575,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353467693&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Lucy Show",
+    "duration": 360,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354997432&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Damsels in distress",
+    "duration": 95,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35518950X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 328,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=356270890&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rubber",
+    "duration": 79,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338822054&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Shameless",
+    "duration": 570,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35780368X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Make the Yulitide Gay",
+    "duration": 89,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329085441&isbn=9789077835081&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The guilt trip",
+    "duration": 92,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363902309&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The kid",
+    "duration": 51,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363983821&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 338,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=364240024&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How I met your mother",
+    "duration": 490,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=36918842X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tommy Cooper collection",
+    "duration": 434,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=364512105&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The heat",
+    "duration": 112,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369582365&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Gambit",
+    "duration": 89,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369478282&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "2 broke girls",
+    "duration": 480,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370406540&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Blue Jasmine",
+    "duration": 98,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370575830&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Don Jon",
+    "duration": 90,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370702255&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Suburgatory",
+    "duration": 440,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370405242&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jackass presents: Bad grandpa",
+    "duration": 92,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371112869&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The blood and ice cream trilogy",
+    "duration": 400,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371440076&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "When pigs have wings",
+    "duration": 96,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371058007&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Spy",
+    "duration": 180,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371176107&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "2 broke girls",
+    "duration": 528,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371503183&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 591,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371502276&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Much ado about nothing",
+    "duration": 109,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371653762&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 339,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=374332029&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Anchorman 2: the legend continues",
+    "duration": 108,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375273700&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fawlty Towers : de complete collectie remastered",
+    "duration": null,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=37727979X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "In a world",
+    "duration": 89,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=379241455&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bullet in the face",
+    "duration": 180,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377083674&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Shameless",
+    "duration": 624,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377360414&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Modern family",
+    "duration": 580,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380504820&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "New girl",
+    "duration": 580,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380493993&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Blended",
+    "duration": 112,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382034015&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Californication",
+    "duration": 379,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381189880&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Franklin & Bash",
+    "duration": 404,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381324222&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bad neighbours",
+    "duration": 96,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38303941X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A bird of the air",
+    "duration": 98,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382006526&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Begin again",
+    "duration": 104,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383060613&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The grand seduction",
+    "duration": 108,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38272092X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bad words",
+    "duration": 85,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382724224&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cuban fury",
+    "duration": 98,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383614139&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Franklin & Bash",
+    "duration": 404,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383480248&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Let's be cops",
+    "duration": 102,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383783674&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "What if",
+    "duration": 102,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=383784867&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pride",
+    "duration": 120,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=386098735&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "And so it goes",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=384126642&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The English teacher",
+    "duration": null,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380466627&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Gemma Bovery",
+    "duration": 99,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387132767&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "All cheerleaders die",
+    "duration": 89,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387223401&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hector and the search for happinness",
+    "duration": 120,
+    "publicationYear": 2014,
+    "genre": ["Avontureroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387133968&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "What we do in the shadows",
+    "duration": 86,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387134107&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A perfect man",
+    "duration": 95,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38406809X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Veep",
+    "duration": 300,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387624082&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "2 broke girls",
+    "duration": 528,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387624619&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Other plans",
+    "duration": 88,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=388112794&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 351,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38348281X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Looking",
+    "duration": 216,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390676039&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Two night stand",
+    "duration": 86,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390024007&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "St. Vincent",
+    "duration": 102,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=391067249&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Redirected",
+    "duration": 95,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=390774898&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "This is where I leave you",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=392125684&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Appropriate behavior",
+    "duration": 90,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=392488221&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The interview",
+    "duration": 112,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39334617X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Inherent vice",
+    "duration": 144,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393346315&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The voices",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393433773&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hello ladies",
+    "duration": null,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393487857&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The mule",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393658937&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Charlie Mortdecai",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Detective", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393208842&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Getting Go : The Go Doc Project",
+    "duration": 91,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394231198&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Welcome to me",
+    "duration": 83,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=394232380&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The cobbler",
+    "duration": 99,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=39546479X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "London payback",
+    "duration": 89,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395530520&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "What we did on our holiday",
+    "duration": 95,
+    "publicationYear": 2015,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395014484&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "2 broke girls",
+    "duration": 400,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396002153&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Entourage : the movie",
+    "duration": 100,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396000800&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ride",
+    "duration": 93,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397087098&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 214,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397190611&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "She's funny that way",
+    "duration": 93,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396606776&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "While we're young",
+    "duration": 97,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397594593&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dope",
+    "duration": 103,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=396621686&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The last five years",
+    "duration": 94,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397750854&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The man from U.N.C.L.E.",
+    "duration": 112,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397585969&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pixels",
+    "duration": 106,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397280084&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Millers",
+    "duration": 475,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=398074135&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The final girls",
+    "duration": 88,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397802498&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Trainwreck",
+    "duration": 125,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=398061041&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "American Ultra",
+    "duration": 99,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397832842&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sparks & embers",
+    "duration": 88,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=397728115&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Scorpion",
+    "duration": 880,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400203316&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "People places things",
+    "duration": 85,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400454009&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sleeping with other people",
+    "duration": 101,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=400360365&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Before we go",
+    "duration": 95,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401126765&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Krampus",
+    "duration": 98,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401353982&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Problemski hotel",
+    "duration": 110,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401436020&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Kindergarten cop 1-2",
+    "duration": 207,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401657205&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "How to write love",
+    "duration": 102,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401643395&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Grimsby",
+    "duration": 83,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=403876885&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Night at the museum 2",
+    "duration": 105,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=404079199&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ratchet & Clank",
+    "duration": 94,
+    "publicationYear": 2016,
+    "genre": ["Avontureroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=405031726&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Good kids",
+    "duration": 86,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=406366128&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Alex & Eve",
+    "duration": 92,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407046135&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bill",
+    "duration": 94,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40817787X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Posthumous",
+    "duration": 94,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408441798&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The better half",
+    "duration": 93,
+    "publicationYear": 2016,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408441623&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Joshy",
+    "duration": 93,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408521732&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Baby, baby, baby",
+    "duration": 92,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=40931997X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "War on everyone",
+    "duration": 98,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=409327603&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "CHiPs",
+    "duration": 100,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=410847194&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dirty weekend",
+    "duration": 93,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=411177575&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bad moms",
+    "duration": null,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408449306&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Baywatch",
+    "duration": 116,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412669293&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Table 19",
+    "duration": 87,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412582767&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Crash pad",
+    "duration": 93,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412671573&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls night out",
+    "duration": 101,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412667290&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girls trip",
+    "duration": 122,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413625788&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Suburbicon",
+    "duration": 105,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416609368&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bad moms 2",
+    "duration": 104,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=416620817&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Modern life is rubbish",
+    "duration": 105,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417058624&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Snatched",
+    "duration": 87,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413545989&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served : the movie",
+    "duration": 95,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417588143&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tommy Cooper : the collection",
+    "duration": 920,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417586868&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dear dictator",
+    "duration": 90,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=417797583&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A few less men",
+    "duration": 92,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=418057028&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Game night",
+    "duration": 100,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419003509&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 432,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419101780&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Superbad",
+    "duration": 113,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=306732009&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons movie",
+    "duration": 83,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=30789178X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Outsourced",
+    "duration": 103,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308067649&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Royle family",
+    "duration": 180,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=312804156&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Miss Pettigrew lives for a day",
+    "duration": 92,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314454772&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Then she found me",
+    "duration": 100,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315048646&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 377,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315543140&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 301,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317032712&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "My sassy girl",
+    "duration": 92,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313958319&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The nanny",
+    "duration": 619,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317413708&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "New in town",
+    "duration": 97,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320602885&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "He's just not that into you",
+    "duration": 124,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321336925&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dr. Strangelove, or: How I learned to stop worrying and love the bomb",
+    "duration": 90,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322401976&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brüno",
+    "duration": 80,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322461936&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 347,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323825389&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 375,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322566762&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Role Models",
+    "duration": 95,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320537579&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The love boat",
+    "duration": 1349,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=324425872&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The ugly truth",
+    "duration": 92,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=324517815&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family guy : Something, something, something Dark side",
+    "duration": 55,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326411259&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weirdsville",
+    "duration": 180,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326177450&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The rebound",
+    "duration": 97,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327510897&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A film with me in it",
+    "duration": 97,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326093400&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Leave it all to me",
+    "duration": 305,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328200689&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pushing daisies",
+    "duration": null,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328588962&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Youth in revolt",
+    "duration": 86,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328750980&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 311,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329347624&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Letters to Juliet",
+    "duration": 105,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329720538&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Get him to the Greek",
+    "duration": 105,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329917218&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Weeds",
+    "duration": 345,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=330816306&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The IT crowd",
+    "duration": 171,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33081608X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "George & Mildred",
+    "duration": 120,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331191962&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "In the loop",
+    "duration": 102,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Politieke roman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331656868&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The switch",
+    "duration": 101,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332386856&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Living in oblivion",
+    "duration": 87,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334559812&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Reggie Perrin",
+    "duration": 180,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334339723&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Episodes",
+    "duration": 200,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336109849&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jackass 3.5 : the explicit movie",
+    "duration": 81,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=335992838&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hall pass",
+    "duration": 101,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336268327&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Manstrokewoman",
+    "duration": 175,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333873750&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Smart people",
+    "duration": 91,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32705624X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The answer man",
+    "duration": 97,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337019851&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Arrested development",
+    "duration": 660,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=336563884&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dharma & Greg",
+    "duration": 580,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337041091&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Manstrokewoman",
+    "duration": 189,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337118310&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Glee",
+    "duration": 546,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=337936579&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Sex and death 101",
+    "duration": 113,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338290524&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Arthur",
+    "duration": 106,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338135472&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Little children",
+    "duration": 131,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339239387&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bender's game",
+    "duration": 83,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338553274&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Reno 911!",
+    "duration": 337,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339356332&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That Mitchell and Webb look",
+    "duration": 175,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339256338&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That Mitchell and Webb look",
+    "duration": 180,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=339256028&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family jewels: the Barry Munday story",
+    "duration": 94,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=340212284&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Curb your enthusiasm",
+    "duration": null,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343058944&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Beavis and Butt-head : Mike Judge's most wanted",
+    "duration": 110,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=341731706&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "New year's eve",
+    "duration": 113,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=34304109X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cougar town",
+    "duration": 480,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=338298746&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Episodes",
+    "duration": null,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=345697502&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rev.",
+    "duration": 210,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=351122850&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The bleak old shop of stuff",
+    "duration": 148,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353457280&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Be kind rewind",
+    "duration": 97,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353724831&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Friday night dinner",
+    "duration": 150,
+    "publicationYear": 2012,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=353470198&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wrong",
+    "duration": 94,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354001124&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Starlings",
+    "duration": 360,
+    "publicationYear": 2013,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354466453&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Robot & Frank",
+    "duration": 100,
+    "publicationYear": 2013,
+    "genre": ["Familieroman", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=355219700&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lola Versus",
+    "duration": 83,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=355351056&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Codependent lesbian space alien seeks same",
+    "duration": 76,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=356184528&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lay the favorite",
+    "duration": 94,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=35661008X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Thin ice",
+    "duration": 114,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357976088&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "This is 40",
+    "duration": 134,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357976398&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Finding Mr. Wright",
+    "duration": 100,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=357211227&isbn=9789077835142&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Visioneers",
+    "duration": 94,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=362914680&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Web therapy",
+    "duration": 300,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=36284478X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Scary movie 5",
+    "duration": 86,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=363790470&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Frances Ha",
+    "duration": 86,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=364463767&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "LOL",
+    "duration": 93,
+    "publicationYear": 2012,
+    "genre": ["Humor", "School"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=352688181&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Goon",
+    "duration": 92,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Sport"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369280601&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Safety not guaranteed",
+    "duration": 86,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369584708&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Scary movie trilogy",
+    "duration": 275,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369417593&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Outside bet",
+    "duration": 101,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=369845587&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wedding band",
+    "duration": 400,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370412818&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "2 guns",
+    "duration": 109,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370915097&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The lightkeepers",
+    "duration": 90,
+    "publicationYear": 2012,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370426967&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Machete kills",
+    "duration": 108,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370702042&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The world's end",
+    "duration": 109,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371305411&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Last Vegas",
+    "duration": 106,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371326141&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pain & gain",
+    "duration": 124,
+    "publicationYear": 2013,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=370916344&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Grown ups 2",
+    "duration": 97,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=371622514&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "We're the Millers : extended cut",
+    "duration": 114,
+    "publicationYear": 2013,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=37117631X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Love serenade",
+    "duration": 103,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=375134921&isbn=9789078716952&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Knights of Badassdom",
+    "duration": 86,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=380143976&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Grudge match",
+    "duration": 109,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Sport"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=377499323&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The love Punch",
+    "duration": 95,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=381239721&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A million ways to die in the west",
+    "duration": 111,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Western"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382000706&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Freaky Deaky",
+    "duration": 93,
+    "publicationYear": 2014,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=38364061X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That burning feeling",
+    "duration": 90,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=387139672&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Stretch",
+    "duration": 91,
+    "publicationYear": 2015,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=389525227&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cas & Dylan",
+    "duration": 90,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393426297&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The wedding ringer",
+    "duration": 101,
+    "publicationYear": 2015,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=393657469&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Moms' night out",
+    "duration": 96,
+    "publicationYear": 2014,
+    "genre": ["Humor", "Protestants milieu"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=382582780&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Magic Mike",
+    "duration": 106,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=401160122&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dirty grandpa",
+    "duration": 102,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=402224612&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The boss",
+    "duration": 99,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=405066260&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "My big fat Greek wedding",
+    "duration": 179,
+    "publicationYear": 2016,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=405031661&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Community",
+    "duration": 345,
+    "publicationYear": 2016,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=407479538&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bridget Jones 1-3",
+    "duration": 319,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408195630&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bad Santa 2",
+    "duration": 93,
+    "publicationYear": 2017,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=412860449&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Elvis & Nixon",
+    "duration": 86,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=41266741X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fuller House",
+    "duration": 235,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413380408&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Gilmore girls: a year in the life",
+    "duration": 360,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413380106&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The midnight man",
+    "duration": 90,
+    "publicationYear": 2017,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413292444&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The little hours",
+    "duration": 90,
+    "publicationYear": 2018,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=413625583&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A liar's autobiography: the untrue story of Monty Python's Graham Chapman",
+    "duration": 84,
+    "publicationYear": 2013,
+    "genre": ["Biografie", "Humor"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=356384020&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Johnny English",
+    "duration": 185,
+    "publicationYear": 2018,
+    "genre": ["Humor", "Spionageroman"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=419582495&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "'Allo 'allo!",
+    "duration": 210,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=307974960&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "'Allo 'allo!",
+    "duration": 180,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=307975096&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roseanne",
+    "duration": 575,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308123786&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308128311&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308128796&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308128605&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308128990&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308129148&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "King of California",
+    "duration": 101,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=306734362&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Run fatboy run",
+    "duration": 95,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308325532&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy: Blue harvest",
+    "duration": 48,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=30845667X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dad's Army",
+    "duration": 270,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=308334507&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The heartbreak kid",
+    "duration": 111,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=309549205&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Cosby show",
+    "duration": 550,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=31041704X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jackass 2.5",
+    "duration": 64,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310416450&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roseanne",
+    "duration": 575,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310417287&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "I could never be your woman",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310377919&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The league of gentlemen",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310806038&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Taxi",
+    "duration": 520,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=31072032X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "30 Rock",
+    "duration": 460,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310800501&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cashback",
+    "duration": 98,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=312800088&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 329,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=312641990&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 376,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=312641672&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 572,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=311481604&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 525,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=311481698&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 567,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=311481744&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 550,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=311481469&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rik Mayall",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=311799116&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Keeping up appearances",
+    "duration": 165,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=312687273&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Please sir!",
+    "duration": 270,
+    "publicationYear": 2008,
+    "genre": ["Humor", "School"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313063001&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Abbott & Costello's funniest routines",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313716935&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Walk hard : the Dewey Cox story",
+    "duration": 92,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313893721&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Cosby show",
+    "duration": 572,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313907803&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roseanne",
+    "duration": 598,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=313908133&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harold & Kumar : escape from Guantanamo Bay",
+    "duration": 100,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=31417964X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The office",
+    "duration": 255,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314332731&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rik Mayall",
+    "duration": 180,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314244166&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 525,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314298347&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "That '70s show",
+    "duration": 525,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314299025&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roseanne",
+    "duration": 598,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314382720&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Cosby show",
+    "duration": 572,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314382933&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "On the buses",
+    "duration": 700,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314410295&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "3rd rock from the sun",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=31434523X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "3rd rock from the sun",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=31434599X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314464581&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Royle family",
+    "duration": 180,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314677275&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "3rd rock from the sun",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314869859&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "3rd rock from the sun",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314775331&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dan in real life",
+    "duration": 98,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314774602&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Little Britain",
+    "duration": 58,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315112484&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Little Britain",
+    "duration": 78,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315112905&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315040955&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Fido",
+    "duration": 88,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315433574&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Man over de vloer",
+    "duration": 300,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315304502&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Roseanne",
+    "duration": 552,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315403063&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The nanny diaries",
+    "duration": 106,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315386894&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315485965&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315486767&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 303,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315543337&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 381,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315543248&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bender's big score",
+    "duration": 88,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Sciencefiction"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315663995&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hancock",
+    "duration": 88,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315652462&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Alle zegen komt van boven",
+    "duration": 172,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315706414&isbn=9789089410177&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Forgetting Sarah Marshall",
+    "duration": 105,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315160470&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The new statesman",
+    "duration": 175,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315985860&isbn=9789089410245&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The new statesman",
+    "duration": 175,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=315985682&isbn=9789089410238&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The love boat",
+    "duration": 1193,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=316153672&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Taxi",
+    "duration": 566,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=316086436&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big number 2 tour",
+    "duration": 107,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=316211915&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The stage show",
+    "duration": 103,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=316211761&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Man over de vloer",
+    "duration": 316,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317232517&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Meet Dave",
+    "duration": 90,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317361899&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The new statesman",
+    "duration": 210,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317232657&isbn=9789089410252&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tropic thunder",
+    "duration": 102,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317606174&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Alle zegen komt van boven",
+    "duration": 172,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318068575&isbn=9789089410184&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ghost town",
+    "duration": 98,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318265346&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mad money",
+    "duration": 100,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318604043&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dad's Army",
+    "duration": 420,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Oorlog en verzet"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318080753&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dad's Army",
+    "duration": 390,
+    "publicationYear": 2008,
+    "genre": ["Humor", "Oorlog en verzet"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318080834&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 311,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318807955&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "'Allo 'allo!",
+    "duration": 325,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318769735&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "'Allo 'allo!",
+    "duration": 325,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318769751&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The women",
+    "duration": 109,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318851628&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Yes man",
+    "duration": 100,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=318876256&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pineapple express",
+    "duration": 107,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=317913956&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Soap",
+    "duration": 663,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320309576&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Confessions of a shopaholic",
+    "duration": 104,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320605698&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Victor Victoria",
+    "duration": 107,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320590216&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pulling",
+    "duration": 180,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=320709884&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 311,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321079337&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The thin blue line",
+    "duration": 203,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321455541&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The thin blue line",
+    "duration": 203,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321455436&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The IT crowd",
+    "duration": 141,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321646118&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The other end of the line",
+    "duration": 105,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=321242106&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Father Ted",
+    "duration": 204,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32203101X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Night at the museum 2",
+    "duration": 105,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322267471&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Simpsons",
+    "duration": 540,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322340861&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "30 Rock",
+    "duration": 360,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322353297&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Burn notice",
+    "duration": 550,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323348602&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Nick & Norah's infinite playlist",
+    "duration": 85,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32283970X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "I love you, man",
+    "duration": 100,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323240739&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ghosts of girlfriends past",
+    "duration": 96,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=322463947&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The hangover",
+    "duration": null,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323822436&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Flight of the conchords",
+    "duration": null,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32411334X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Flight of the conchords",
+    "duration": null,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=324113625&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Looking for Eric",
+    "duration": 119,
+    "publicationYear": 2009,
+    "genre": ["Humor", "Sport"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=323846351&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 345,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326411070&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 345,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326410910&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Are you being served?",
+    "duration": null,
+    "publicationYear": 2008,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326528008&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Black dynamite",
+    "duration": 81,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326796207&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "South Park",
+    "duration": 310,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327499087&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Couples retreat",
+    "duration": 110,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=326713069&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The cult of Cartman : revelations",
+    "duration": 266,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32758713X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pushing daisies",
+    "duration": null,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327620706&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 525,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32777312X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The IT crowd",
+    "duration": 137,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327881666&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Valentine's day",
+    "duration": 120,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32828114X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Girl happy",
+    "duration": 92,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328310999&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Date night : grazy night",
+    "duration": 98,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328584762&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Shanghai kiss",
+    "duration": 102,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=328049298&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Killers",
+    "duration": 100,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Thriller"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32895263X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Swimming with sharks",
+    "duration": 88,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329037242&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Blott on the landscape",
+    "duration": 311,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329233289&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Family Guy",
+    "duration": 400,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329471759&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The back-up plan",
+    "duration": 100,
+    "publicationYear": 2010,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=329836811&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Road to sectionals",
+    "duration": 640,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=32980975X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cougar town",
+    "duration": 910,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=33141404X&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Grown ups",
+    "duration": 98,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331244098&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Dinner for Schmucks",
+    "duration": 109,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331669617&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Adventureland",
+    "duration": 102,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331870983&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jackass 3",
+    "duration": 90,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332171914&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Road to regionals",
+    "duration": 400,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=330987038&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": null,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332781488&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 340,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331782448&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The big bang theory",
+    "duration": 460,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=331783312&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Life as we know it",
+    "duration": 109,
+    "publicationYear": 2011,
+    "genre": ["Humor", "Romantisch verhaal"],
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332777103&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Jackass : the lost tapes",
+    "duration": 105,
+    "publicationYear": 2009,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=332745856&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Glee",
+    "duration": 512,
+    "publicationYear": 2011,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333041399&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Curb your enthusiasm",
+    "duration": null,
+    "publicationYear": 2010,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=333243021&isbn=&lid=&aut=&ti=&size=70"
 }]

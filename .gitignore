@@ -1,4 +1,5 @@
 .env
+imdbData.json
 node_modules
 name.basics.tsv
 title.akas.tsv

@@ -4,9 +4,9 @@
     "publicationYear": 2015,
     "producer": "Colin Trevorrow",
     "rating": 7.0,
-    "genre": ["Avontureroman", "Sciencefiction"],
+    "genre": "Avontureroman",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=395400430&isbn=&lid=&aut=&ti=&size=70"
-},{
+}, {
     "title": "De GVR",
     "duration": 117,
     "publicationYear": 2016,
@@ -44,7 +44,7 @@
     "publicationYear": 2010,
     "producer": "Wes Anderson",
     "rating": 7.8,
-    "genre": ["Dieren", "Humor"],
+    "genre": "Humor",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=327838906&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "Rango",
@@ -52,7 +52,7 @@
     "publicationYear": 2011,
     "producer": "Gore Verbinski",
     "rating": 7.2,
-    "genre": "Western",
+    "genre": "Sprookjes",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=334063353&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "The hunger games",
