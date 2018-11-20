@@ -16,28 +16,114 @@ const fillColor = d3.scaleOrdinal()
 const strokeColor = d3.scaleOrdinal()
     .range(["rgb(219, 41, 79)", "rgb(237, 109, 152)", "rgb(134, 49, 255)", "rgb(0, 19, 255)", "rgba(0, 183, 255, .4)"])
 
+// const force = d3.layout.force()
+//     .linkDistance(80)
+//     .charge(-120)
+//     .gravity(.05)
+//     .size([width, height])
+//     .on("tick", tick)
+
 const svg = d3.select(".data").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
     .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
+// const link = svg.selectAll(".link")
+// const node = svg.selectAll(".node")
+// let root
 
-d3.json("/../data/obaMovieData.json").then(function(data) {
-    const nodes = d3.nest()
-        .key(d => d.producer)
-        .key(d => d.title)
-        // .rollup(v => v.length)
-        .entries(data)
-    console.log(nodes)
+// const update = () => {
+//     let nodes = flatten(root)
+//     let links = d3.layout.tree().links(nodes)
 
-    data.forEach(function(d) {
-        d.publicationYear = parseTime(d.publicationYear)
-        d.rating= +d.rating
-    })
+//     force
+//         .nodes
+//         .links(links)
+//         .start
+    
+//         // Update links.
+//     ink = link.data(links, function(d) { return d.target.id; });
 
-    x.domain(d3.extent(data, function(d) { return d.publicationYear }))
-    y.domain([0,10])
+//     link.exit().remove();
+
+//     link.enter().insert("line", ".node")
+//         .attr("class", "link");
+
+//     // Update nodes.
+//     node = node.data(nodes, function(d) { return d.key; });
+
+//     node.exit().remove();
+
+//     var nodeEnter = node.enter().append("g")
+//         .attr("class", "node")x
+//         .on("click", click)
+//         .call(force.drag);
+
+//     nodeEnter.append("circle")
+//         .attr("r", 8);
+
+//     nodeEnter.append("text")
+//         .attr("dy", ".35em")
+//         .text(function(d) { return d.values.title; });
+
+//     node.select("circle")
+//         .style("fill", color);
+// }
+
+// d3.json("/../data/obaMovieData.json").then(function(data) {
+//     const nestedData = d3.nest()
+//         .key(d => d.producer)
+//         .key(d => d.title)
+//         .entries(data)
+//     console.log(nestedData)
+//     root = nestedData
+//     update() 
+    
+//     // Assigns parent, children, height, depth
+//     let nodes = d3.hierarchy(treemap, (d => d.values))
+//     nodes = treemap(nodes)    
+
+//     data.forEach(function(d) {
+//         d.publicationYear = parseTime(d.publicationYear)
+//         d.rating= +d.rating
+//     })
+
+//     x.domain(d3.extent(data, function(d) { return d.publicationYear }))
+//     y.domain([0,10])
+
+//     const link = svg.selectAll(".link")
+//         .data( nodes.descendants().slice(1))
+//         .enter().append("path")
+//         .attr("class", "link")
+//         .attr("d", function(d) {
+//            return "M" + d.y + "," + d.x
+//            + "C" + (d.y + d.parent.y) / 2 + "," + d.x
+//            + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
+//            + " " + d.parent.y + "," + d.parent.x
+//         })
+
+//     const node = svg.selectAll(".node")
+//         .data(nodes.descendants())
+//         .enter().append("g")
+//         .attr("class", function(d) { 
+//           return "node" + 
+//           (d.values ? " node--internal" : " node--leaf") })
+//         .attr("transform", function(d) { 
+//           return "translate(" + d.y + "," + d.x + ")" })
+//     // adds the circle to the node
+//     node.append("circle")
+//         .attr("r", 10)
+
+//     // adds the text to the node
+//     node.append("text")
+//         .attr("dy", ".35em")
+//         .attr("x", function(d) { return d.children ? -13 : 13 })
+//         .style("text-anchor", function(d) { 
+//             return d.children ? "end" : "start" })
+//         .text(function(d) { return d.data.name })
+
+
 
     svg.selectAll("dot")
         .data(data)
