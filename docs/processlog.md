@@ -18,7 +18,7 @@ Today I started with a general idea about the data I wanted to use. First I want
 
 In the meantime we also had een standup, wich was very insightful into what everyone else was going to visualise and the different variables they were going to use for that. 
 
-My goal for today was to get all the data out of the Api. However duration was enveloped in some other data, thus I had a hard time trying to get the specific data I wanted to use. By the end of the day I unfortunately hadn't completed this, but will resume first thing in the moring. Well after another presenation that is... 
+My goal for today was to get all the data out of the Api. However duration was enveloped in some other data, thus I had a hard time trying to get the specific data I wanted to use. By the end of the day I unfortunately hadn't completed this, but will resume first thing in the moring. Well after another presenation that is... 😇
 
 
 
@@ -31,14 +31,14 @@ One downside though. I have to connect multiple files to one another to get the 
 
 ### Day 4 | 15 November 2018
 
-I kinda screwed up badly in the morning, because I commited these large files to github and afterwards added them in my gitignore. Ofcourse I wasn't able to push my commits anymore, because I had reached the repository's upload limit. After some help from Titus I was able to uncommit these changes and continue linking the files togheter. I had to up my node working memory to 8GB, because it normally works with 1GB. However node wasn't able to resolve those large files. And I had to test my code so I resolved to using the following command. ```node --max-old-space-size=8192 dataGenerator.js ``` This kinda freaked me out, because I had never done this before. Of course that wasn't my only problem sometimes the editor crashed while looking through the files. All in all it wasn't very pleasant to work with. Around two o'clock I decided to sharpen my concept so I could present this later that day to my fellow classmates. By the end of the day my files still weren't connected to eachother. What a waste...
+I kinda screwed up badly in the morning, because I commited these large files to github and afterwards added them in my gitignore. Ofcourse I wasn't able to push my commits anymore, because I had reached the repository's upload limit. After some help from Titus I was able to uncommit these changes and continue linking the files togheter. I had to up my node working memory to 8GB, because it normally works with 1GB. However node wasn't able to resolve those large files. And I had to test my code so I resolved to using the following command. ```node --max-old-space-size=8192 dataGenerator.js ``` This kinda freaked me out, because I had never done this before. Of course that wasn't my only problem sometimes the editor crashed while looking through the files. All in all it wasn't very pleasant to work with. Around two o'clock I decided to sharpen my concept so I could present this later that day to my fellow classmates. By the end of the day my files still weren't connected to eachother. What a waste...😩
 
 Also my idea might be a little bit to complicated to realise for me. However I still really want to try, because it might be really sick! At least by my standards. I also decided not to look at the average rating anymore, because then all the lines might be crossing one another at the same point, which makes the data unreadable. So I decided to look up 10 most anticpated movies per year. And to visualize those still as a scatter plot. 
 
 
 ### Day 5 | 16 November 2018
 
-Thanks to Maikel I was finally able to get the right data. I tested this with smaller file sizes, so node could easily resolves those. In the end I connected the right nameId to the name of the producer of a movie and the title Id to the title of the movie to get that specific rating. I also had to make a decision about the data, because it took me so much time I conjured a static datafile
+Thanks to Maikel I was finally able to get the right data. I tested this with smaller file sizes, so node could easily resolves those. In the end I connected the right nameId to the name of the producer of a movie and the title Id to the title of the movie to get that specific rating. I also had to make a decision about the data, because it took me so much time I conjured a static datafile with the movie data I would like to have in the end. So I could get a move on with D3, want time is of the essence. This is where I spent the most time on that day, simultaneously on getting the data. Alas time flew by so I didn't get as much work done as i would have hoped. But did get a useful tutorial by Tim about d3.nest(). Especially the rollup function is very useful I think, alas not this time for me. 
 
 
 
@@ -48,11 +48,18 @@ Thanks to Maikel I was finally able to get the right data. I tested this with sm
 
 ### Day 6 | 19 November 2018
 
+First we had a lecture from Justus about clean code. I really learned a lot from this and how I should refractor my code in the future. Which is an important step I always don't have enough time to complete. In the morning I tried to get the imdb data with all the files. Ofcourse this didn't work in one go, so by half past 12 I finally managed to start the terminal and collecting the data by writing this to an seperate [JSON file](). It took **THREE HOURS** 😱 to collect all the data. After that I tried opening the data in VS CODE, and let the editor completely crash. I really had to open the large file tho, to check if the data was succesfully rendered as I intended to. I tried opening it in Atom, Texteditor and in the end in the browser. In the browser it finally decided to load without crashing. However it took a lot of time to make it appear even there. I'm afraid what will happen when I will connect the Oba Api with it. 
 
+After all the trouble I went to, ofcourse the data was incomplete, because of some checks I put in beforehand. So I have to check those again to make it finally work. However now I had only three days to complete my datavisualisation with interaction. So I decided to completely skip this. Damn...☹️ 
 
 ### Day 7 | 20 November 2018
 
+In the morning I worked on my scatter plot. Around midday I finally had my scatter plot up and running with my static data file. After that I managed to style the graph and made sure you can view only the dots of a genre you would want to view, instead of all of them. This makes the graph a lot more userfriendly. I also added some transitions to make it all smoother. 🐙
 
+
+### Day 8 | 21 November 2018
+
+Today we first had a lecture by Nick who just graduated from CMD, with his project by Clever Franke. It was very insightful how to make an interaction user-friendly and also the different possibilities with D3. There were some complex visualisation, but so awesome! After that I tried to add the next step of interaction to my graph by adding a network graph. In the end with a lot of help from Maikel and a bit of help from May we managed to get the graph. But the styling on this graph was a nightmare. Which I just couldn't figure out. So i tried to work with a new example, however they changed the tree function in v4. and all the good examples where written in v3. I had a really hard time writing this to v4. So i tried to look for examples in v4. Alas by the end of the day I just didn't manage... Which kinda stressed me out. I had only one left to fix everything. From my graph to the data... And I really didn't see how I was going to make this work... 😥
 
 ### Day 9 | 22 November 2018
 
