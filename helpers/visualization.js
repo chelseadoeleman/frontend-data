@@ -1,4 +1,6 @@
-
+const fetchedData = {
+    nestedData: undefined,
+}
 const margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 1000 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom
@@ -16,12 +18,6 @@ const fillColor = d3.scaleOrdinal()
 const strokeColor = d3.scaleOrdinal()
     .range(["rgb(219, 41, 79)", "rgb(237, 109, 152)", "rgb(134, 49, 255)", "rgb(0, 19, 255)", "rgba(0, 183, 255, .4)"])
 
-// const force = d3.layout.force()
-//     .linkDistance(80)
-//     .charge(-120)
-//     .gravity(.05)
-//     .size([width, height])
-//     .on("tick", tick)
 
 const svg = d3.select(".data").append("svg")
         .attr("width", width + margin.left + margin.right)
@@ -29,100 +25,223 @@ const svg = d3.select(".data").append("svg")
     .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-// const link = svg.selectAll(".link")
-// const node = svg.selectAll(".node")
-// let root
 
-// const update = () => {
-//     let nodes = flatten(root)
-//     let links = d3.layout.tree().links(nodes)
+d3.json("/../data/obaMovieData.json").then(function(data) {
+    fetchedData.nestedData = d3.nest()
+        .key(d => d.title)
+        .key(d => d.producer)
+        .entries(data)
+        .map(d => ({
+            name: d.key,
+            children: d.values.map(dv => {
+                return {
+                    name: dv.key,
+                    children: data
+                        .filter(dd => dv.key === dd.producer)
+                        .map(dd => ({
+                            name: dd.title
+                        }))
+                }
+            }),
+        }))
 
-//     force
-//         .nodes
-//         .links(links)
-//         .start
+    data.forEach(function(d) {
+        d.publicationYear = parseTime(d.publicationYear)
+        d.rating= +d.rating
+    })
+
+    x.domain(d3.extent(data, function(d) { return d.publicationYear }))
+    y.domain([0,10])
+
+function clickBubble (d) {
+    const title = d.title
+    const margin = {
+        left: 20,
+        top: 20,
+    }
+
+    svg.append("g")
+        .attr("transform", "translate("
+              + margin.left + "," + margin.top + ")")
+        
+    let i = 0
+    let duration = 750
+    let root
     
-//         // Update links.
-//     ink = link.data(links, function(d) { return d.target.id; });
-
-//     link.exit().remove();
-
-//     link.enter().insert("line", ".node")
-//         .attr("class", "link");
-
-//     // Update nodes.
-//     node = node.data(nodes, function(d) { return d.key; });
-
-//     node.exit().remove();
-
-//     var nodeEnter = node.enter().append("g")
-//         .attr("class", "node")x
-//         .on("click", click)
-//         .call(force.drag);
-
-//     nodeEnter.append("circle")
-//         .attr("r", 8);
-
-//     nodeEnter.append("text")
-//         .attr("dy", ".35em")
-//         .text(function(d) { return d.values.title; });
-
-//     node.select("circle")
-//         .style("fill", color);
-// }
-
-// d3.json("/../data/obaMovieData.json").then(function(data) {
-//     const nestedData = d3.nest()
-//         .key(d => d.producer)
-//         .key(d => d.title)
-//         .entries(data)
-//     console.log(nestedData)
-//     root = nestedData
-//     update() 
+    // declares a tree layout and assigns the size
+    var treemap = d3.tree().size([height, width])
     
-//     // Assigns parent, children, height, depth
-//     let nodes = d3.hierarchy(treemap, (d => d.values))
-//     nodes = treemap(nodes)    
+    const data = fetchedData.nestedData
+    const td = Object.assign({}, data 
+        .filter(d => d.name === title)[0])
 
-//     data.forEach(function(d) {
-//         d.publicationYear = parseTime(d.publicationYear)
-//         d.rating= +d.rating
-//     })
+    // Assigns parent, values, height, depth
+    root = d3.hierarchy(td)
+    root.x0 = height / 2
+    root.y0 = 0
+    
+    // Collapse after the second level
+    collapse(root.data)
+    
+    update(root)
+    
+    // Collapse the node and all it's values
+    function collapse(d) {
+        if(d.children) {
+            d._children = d.children
+            d._children.forEach(collapse)
+            d.children = null
+        }
+    }
+    
+    function update(source) {
+        // Assigns the x and y position for the nodes
+        var treeData = treemap(root)
+        
+        // Compute the new tree layout.
+        var nodes = treeData.descendants(),
+            links = treeData.descendants().slice(1)
 
-//     x.domain(d3.extent(data, function(d) { return d.publicationYear }))
-//     y.domain([0,10])
-
-//     const link = svg.selectAll(".link")
-//         .data( nodes.descendants().slice(1))
-//         .enter().append("path")
-//         .attr("class", "link")
-//         .attr("d", function(d) {
-//            return "M" + d.y + "," + d.x
-//            + "C" + (d.y + d.parent.y) / 2 + "," + d.x
-//            + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
-//            + " " + d.parent.y + "," + d.parent.x
-//         })
-
-//     const node = svg.selectAll(".node")
-//         .data(nodes.descendants())
-//         .enter().append("g")
-//         .attr("class", function(d) { 
-//           return "node" + 
-//           (d.values ? " node--internal" : " node--leaf") })
-//         .attr("transform", function(d) { 
-//           return "translate(" + d.y + "," + d.x + ")" })
-//     // adds the circle to the node
-//     node.append("circle")
-//         .attr("r", 10)
-
-//     // adds the text to the node
-//     node.append("text")
-//         .attr("dy", ".35em")
-//         .attr("x", function(d) { return d.children ? -13 : 13 })
-//         .style("text-anchor", function(d) { 
-//             return d.children ? "end" : "start" })
-//         .text(function(d) { return d.data.name })
-
+        // Normalize for fixed-depth.
+        nodes.forEach(function(d){ d.y = d.depth * 180})
+        
+        // ****************** Nodes section ***************************
+        
+        // Update the nodes...
+        var node = svg.selectAll('g.node')
+            .data(nodes, function(d) {return d.id || (d.id = ++i) })
+        
+        // Enter any new modes at the parent's previous position.
+        var nodeEnter = node.enter().append('g')
+            .attr('class', 'node')
+            .attr("transform", function(d) {
+                return "translate(" + source.y0 + "," + source.x0 + ")"
+            })
+            .on('click', click)
+        
+        // Add Circle for the nodes
+        nodeEnter.append('circle')
+            .attr('class', 'node')
+            .attr('r', 1e-6)
+            .style("fill", function(d) {
+                return d._children ? fillColor(d.genre) : "#fff"
+            })
+            .style("stroke", function(d) {
+                return d._children ? strokeColor(d.genre) : "#fff"
+            })
+        
+        // Add labels for the nodes
+        nodeEnter.append('text')
+            .attr("dy", ".35em")
+            .attr("x", function(d) {
+                return d.children || d._children ? -13 : 13
+            })
+            .attr("text-anchor", function(d) {
+                return d.children || d._children ? "end" : "start"
+            })
+            .text(function(d) { return d.data.name })
+            .style("fill", "#f00")
+        
+        // UPDATE
+        var nodeUpdate = nodeEnter.merge(node)
+        
+        // Transition to the proper position for the node
+        nodeUpdate.transition()
+            .duration(duration)
+            .attr("transform", function(d) { 
+                return "translate(" + d.y + "," + d.x + ")"
+            })
+        
+        // Update the node attributes and style
+        nodeUpdate.select('circle.node')
+            .attr('r', 10)
+            .style("fill", function(d) {
+                return d._children ? fillColor(d.genre) : "#fff"
+            })
+            .attr('cursor', 'pointer')
+        
+        
+        // Remove any exiting nodes
+        var nodeExit = node.exit().transition()
+            .duration(duration)
+            .attr("transform", function(d) {
+                return "translate(" + source.y + "," + source.x + ")"
+            })
+            .remove()
+        
+        // On exit reduce the node circles size to 0
+        nodeExit.select('circle')
+            .attr('r', 1e-6)
+        
+        // On exit reduce the opacity of text labels
+        nodeExit.select('text')
+            .style('fill-opacity', 1e-6)
+        
+        // ****************** links section ***************************
+        
+        // Update the links...
+        var link = svg.selectAll('path.link')
+            .data(links, function(d) { return d.id })
+        
+        // Enter any new links at the parent's previous position.
+        var linkEnter = link.enter().insert('path', "g")
+            .attr("class", "link")
+            .attr("stroke", "#ffffff")
+            .attr('d', function(d){
+                var o = {x: source.x0, y: source.y0}
+                return diagonal(o, o)
+            })
+        
+        // UPDATE
+        var linkUpdate = linkEnter.merge(link)
+        
+        // Transition back to the parent element position
+        linkUpdate.transition()
+            .duration(duration)
+            .attr('d', function(d){ return diagonal(d, d.parent) })
+        
+        // Remove any exiting links
+        var linkExit = link.exit().transition()
+            .duration(duration)
+            .attr('d', function(d) {
+                var o = {x: source.x, y: source.y}
+                return diagonal(o, o)
+            })
+            .remove()
+        
+        // Store the old positions for transition.
+        nodes.forEach(function(d){
+            d.x0 = d.x
+            d.y0 = d.y
+        })
+    
+        // Creates a curved (diagonal) path from parent to the child nodes
+        function diagonal(s, d) {
+            path = `H ${s.x}
+                    ${(s.y + d.y) / 2} ${d.x},
+                    ${d.y} ${d.x}`
+            // path = `M ${s.y} ${s.x}
+            //         C ${(s.y + d.y) / 2} ${s.x},
+            //         ${(s.y + d.y) / 2} ${d.x},
+            //         ${d.y} ${d.x}`
+        
+            return path
+        }
+    
+        // Toggle values on click.
+        function click(d) {
+            // console.log("label")
+            if (d.children) {
+                d._children = d.children
+                d.children = null
+            } else {
+                d.children = d._children
+                d._children = null
+            }
+            update(d)
+        }
+    }
+}
 
 
     svg.selectAll("dot")
@@ -130,6 +249,7 @@ const svg = d3.select(".data").append("svg")
     .enter().append("circle")
         .style("opacity", 0.1)
         .style("fill", "#ffffff")
+        .on("click", clickBubble)
         .transition()
         .delay(d => (Math.random()*500))
         .duration(1500)
