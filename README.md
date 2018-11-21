@@ -41,7 +41,7 @@ My first concept was looking at the duration time per genre, to see if this woul
 
 I want to focus on five genre's to visualize my data, to see if movies are getting better ratings with time and if it is genre **Afhankelijk**. Ratings are not included within the Api, so I have to connect another dataset to it. Imdb has a large assortiment of movies and valid ratings. 
 
-![Visualisatie](./docs/mages/Visualisatie.png)
+![Visualisatie](./docs/images/Visualisatie.png)
 
 After another presentation, this might be a tad bit too difficult for me to realize. So I had to make some design decisions. In the end I decided to only pick 10 movies per year. And to visualize every movie seperate, because when calculating an average all the movies might be ending up on the same line. And then the difference between genre's wouldn't be really shown differently. 
 

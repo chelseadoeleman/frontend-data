@@ -24,13 +24,21 @@ My goal for today was to get all the data out of the Api. However duration was e
 
 ### Day 3 | 14 October 2018
 
+In the morning we had a very educating presentation from the Correspondent. I absolutely loved this! After that it was back to coding and trying to get the data. Around midday I finally managed! I also worked on my concept, because I got to discuss my concept with some classmates and Titus. The feedback was very insightful, but I had a lot of changes to make. So my research continued. In the end I ended up with imdb, for one it contains so much information about so many movies on the internet and secondly their data was publicly accessable. And it's TSV! Something we got a lot of examples from in everyone's explanation. 
+
+One downside though. I have to connect multiple files to one another to get the specific data, because they broke it up in chunks to perserve file size. However these files still add up to 2GB combined. That is a lot of memory I have to work with. But this was a thing for tommorrow. 
 
 
 ### Day 4 | 15 November 2018
 
+I kinda screwed up badly in the morning, because I commited these large files to github and afterwards added them in my gitignore. Ofcourse I wasn't able to push my commits anymore, because I had reached the repository's upload limit. After some help from Titus I was able to uncommit these changes and continue linking the files togheter. I had to up my node working memory to 8GB, because it normally works with 1GB. However node wasn't able to resolve those large files. And I had to test my code so I resolved to using the following command. ```node --max-old-space-size=8192 dataGenerator.js ``` This kinda freaked me out, because I had never done this before. Of course that wasn't my only problem sometimes the editor crashed while looking through the files. All in all it wasn't very pleasant to work with. Around two o'clock I decided to sharpen my concept so I could present this later that day to my fellow classmates. By the end of the day my files still weren't connected to eachother. What a waste...
+
+Also my idea might be a little bit to complicated to realise for me. However I still really want to try, because it might be really sick! At least by my standards. I also decided not to look at the average rating anymore, because then all the lines might be crossing one another at the same point, which makes the data unreadable. So I decided to look up 10 most anticpated movies per year. And to visualize those still as a scatter plot. 
 
 
 ### Day 5 | 16 November 2018
+
+Thanks to Maikel I was finally able to get the right data. I tested this with smaller file sizes, so node could easily resolves those. In the end I connected the right nameId to the name of the producer of a movie and the title Id to the title of the movie to get that specific rating. I also had to make a decision about the data, because it took me so much time I conjured a static datafile
 
 
 

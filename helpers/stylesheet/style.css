@@ -26,20 +26,22 @@ h1 {
   }
 
   .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 3px;
+    cursor: pointer;
+    stroke: #3182bd;
+    stroke-width: 1.5px;
   }
   
   .node text {
-    font: 12px sans-serif;
-    color: red;
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-anchor: middle;
   }
   
-  .link {
+  line.link {
     fill: none;
-    stroke: #ccc;
-    stroke-width: 2px;
+    stroke: #9ecae1;
+    stroke-width: 1.5px;
   }
+  
   
 
