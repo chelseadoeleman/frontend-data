@@ -31,19 +31,15 @@ h1 {
 
 .line {
     fill: none;
-    /* stroke: rgb(255, 164, 194); */
     stroke-width: 2px;
   }
 
   .node circle {
-    /* fill: rgba(255, 164, 194, .4);
-    stroke: rgb(255, 164, 194); */
     stroke-width: 2px;
   }
   
   .link {
     fill: none;
-    /* stroke: rgb(199, 19, 88); */
     stroke-width: 2px;
   }
   

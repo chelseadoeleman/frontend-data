@@ -1,9 +1,10 @@
 const fetchedData = {
     nestedData: undefined,
 }
-const margin = {top: 20, right: 20, bottom: 50, left: 50},
-    width = 800 - margin.left - margin.right,
+const margin = {top: 20, right: 250, bottom: 50, left: 50},
+    width = 1000 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom
+    
 
 const parseTime = d3.timeParse("%Y")
 
@@ -82,7 +83,7 @@ function clickBubble (d) {
     let root
     
     // declares a tree layout and assigns the size
-    var treemap = d3.tree().size([height, width])
+    const treemap = d3.tree().size([height, width])
     
     const data = fetchedData.nestedData
     const td = Object.assign({}, data 
@@ -109,11 +110,11 @@ function clickBubble (d) {
     
     function update(source) {
         // Assigns the x and y position for the nodes
-        var treeData = treemap(root)
+        const treeData = treemap(root)
         // console.log(treeData)
         
         // Compute the new tree layout.
-        var nodes = treeData.descendants(),
+        const nodes = treeData.descendants(),
             links = treeData.descendants().slice(1)
 
         // Normalize for fixed-depth.
@@ -122,11 +123,11 @@ function clickBubble (d) {
         // ****************** Nodes section ***************************
         
         // Update the nodes...
-        var node = networkDiagram.selectAll('g.node')
+        const node = networkDiagram.selectAll('g.node')
             .data(nodes, function(d) {return d.id || (d.id = ++i) })
         
         // Enter any new modes at the parent's previous position.
-        var nodeEnter = node.enter().append('g')
+        const nodeEnter = node.enter().append('g')
             .attr('class', 'node')
             .attr("transform", function(d) {
                 return "translate(" + source.y0 + "," + source.x0 + ")"
@@ -164,7 +165,7 @@ function clickBubble (d) {
             .style("fill", "#fff")
         
         // UPDATE
-        var nodeUpdate = nodeEnter.merge(node)
+        const nodeUpdate = nodeEnter.merge(node)
         
         // Transition to the proper position for the node
         nodeUpdate.transition()
@@ -186,7 +187,7 @@ function clickBubble (d) {
         
         
         // Remove any exiting nodes
-        var nodeExit = node.exit().transition()
+        const nodeExit = node.exit().transition()
             .duration(duration)
             .attr("transform", function(d) {
                 return "translate(" + source.y + "," + source.x + ")"
@@ -204,20 +205,20 @@ function clickBubble (d) {
         // ****************** links section ***************************
         
         // Update the links...
-        var link = networkDiagram.selectAll('path.link')
+        const link = networkDiagram.selectAll('path.link')
             .data(links, function(d) { return d.id })
         
         // Enter any new links at the parent's previous position.
-        var linkEnter = link.enter().insert('path', "g")
+        const linkEnter = link.enter().insert('path', "g")
             .attr("class", "link")
             .attr("stroke", selectedStrokeColor)
             .attr('d', function(d){
-                var o = {x: source.x0, y: source.y0}
+                const o = {x: source.x0, y: source.y0}
                 return diagonal(o, o)
             })
         
         // UPDATE
-        var linkUpdate = linkEnter.merge(link)
+        const linkUpdate = linkEnter.merge(link)
         console.log(linkUpdate)
         
         // Transition back to the parent element position
@@ -226,10 +227,10 @@ function clickBubble (d) {
             .attr('d', function(d){ return diagonal(d, d.parent) })
         
         // Remove any exiting links
-        var linkExit = link.exit().transition()
+        const linkExit = link.exit().transition()
             .duration(duration)
             .attr('d', function(d) {
-                var o = {x: source.x, y: source.y}
+                const o = {x: source.x, y: source.y}
                 return diagonal(o, o)
             })
             .remove()
@@ -255,7 +256,7 @@ function clickBubble (d) {
             // console.log("label")
             if (d.children) {
                 d._children = d.children
-                d.children = null
+                d.children = de.children
             } else {
                 d.children = d._children
                 d._children = null
@@ -289,7 +290,7 @@ function clickBubble (d) {
         .attr("font-size", "12px")
         .call(g => g.append("text")
             .attr("transform", "rotate(0)")
-            .attr("x", 720)
+            .attr("x", 500)
             .attr("dy", "3.5em")
             .attr("fill", "#ffffff")
             .style("text-anchor", "middle")
@@ -313,10 +314,9 @@ function clickBubble (d) {
     const legend = svg.selectAll(".legend")
         .data(fillColor.domain())
     .enter().append("g")
-        // .container(d3.select("legend"))
         .attr("class", "legend")
         .attr("transform", (d, i) => { 
-            return "translate(0," + i * 20 + ")" 
+            return "translate(170," + i * 20 + ")" 
         })
 
     legend.append("circle")
