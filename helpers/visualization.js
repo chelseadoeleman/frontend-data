@@ -18,7 +18,6 @@ const fillColor = d3.scaleOrdinal()
 const strokeColor = d3.scaleOrdinal()
     .range(["rgb(219, 41, 79)", "rgb(237, 109, 152)", "rgb(134, 49, 255)", "rgb(0, 19, 255)", "rgba(0, 183, 255, .4)"])
 
-
 const svg = d3.select(".data").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -54,13 +53,22 @@ d3.json("/../data/obaMovieData.json").then(function(data) {
     y.domain([0,10])
 
 function clickBubble (d) {
+    const removeRoot = document.querySelector('.tree')
+    removeRoot.innerHTML = ''
+
     const title = d.title
     const margin = {
-        left: 20,
+        left: 150,
         top: 20,
     }
 
-    svg.append("g")
+    const networkDiagram = d3.select('.tree').append('svg')
+            .attr('width', width + margin.left)
+            .attr("height", height + margin.top)
+        .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+    networkDiagram.append("g")
         .attr("transform", "translate("
               + margin.left + "," + margin.top + ")")
         
@@ -108,7 +116,7 @@ function clickBubble (d) {
         // ****************** Nodes section ***************************
         
         // Update the nodes...
-        var node = svg.selectAll('g.node')
+        var node = networkDiagram.selectAll('g.node')
             .data(nodes, function(d) {return d.id || (d.id = ++i) })
         
         // Enter any new modes at the parent's previous position.
@@ -133,14 +141,19 @@ function clickBubble (d) {
         // Add labels for the nodes
         nodeEnter.append('text')
             .attr("dy", ".35em")
+            .attr("font-family", "Raleway")
+            .attr("font-size", "6px")
             .attr("x", function(d) {
-                return d.children || d._children ? -13 : 13
+                return d.children || d._children ? -20 : 20
+            })
+            .attr("y", function(d) {
+                return d.children || d._children ? 30 : -30
             })
             .attr("text-anchor", function(d) {
                 return d.children || d._children ? "end" : "start"
             })
             .text(function(d) { return d.data.name })
-            .style("fill", "#f00")
+            .style("fill", "#fff")
         
         // UPDATE
         var nodeUpdate = nodeEnter.merge(node)
@@ -180,7 +193,7 @@ function clickBubble (d) {
         // ****************** links section ***************************
         
         // Update the links...
-        var link = svg.selectAll('path.link')
+        var link = networkDiagram.selectAll('path.link')
             .data(links, function(d) { return d.id })
         
         // Enter any new links at the parent's previous position.
@@ -217,13 +230,10 @@ function clickBubble (d) {
     
         // Creates a curved (diagonal) path from parent to the child nodes
         function diagonal(s, d) {
-            path = `H ${s.x}
+            path = `M ${s.y} ${s.x}
+                    C ${(s.y + d.y) / 2} ${s.x},
                     ${(s.y + d.y) / 2} ${d.x},
                     ${d.y} ${d.x}`
-            // path = `M ${s.y} ${s.x}
-            //         C ${(s.y + d.y) / 2} ${s.x},
-            //         ${(s.y + d.y) / 2} ${d.x},
-            //         ${d.y} ${d.x}`
         
             return path
         }

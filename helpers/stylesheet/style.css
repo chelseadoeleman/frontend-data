@@ -13,10 +13,20 @@ h1 {
   text-align: center;
 }
 
+.tree {
+    display: flex;
+    justify-content: center;
+}
+
 .data {
     margin-top: 10em;
     display: flex;
     justify-content: center;
+}
+
+.tree .node text {
+    font-family: Raleway;
+    font-size: 12px;
 }
 
 .line {
