@@ -55,6 +55,10 @@ d3.json("/../data/obaMovieData.json").then(function(data) {
 function clickBubble (d) {
     const removeRoot = document.querySelector('.tree')
     removeRoot.innerHTML = ''
+    const selectedStrokeColor = d3.select(this).style('stroke')
+    const selectedFillColor = d3.select(this).style('fill')
+    console.log(selectedFillColor)
+    console.log(selectedStrokeColor)
 
     const title = d.title
     const margin = {
@@ -132,10 +136,10 @@ function clickBubble (d) {
             .attr('class', 'node')
             .attr('r', 1e-6)
             .style("fill", function(d) {
-                return d._children ? fillColor(d.genre) : "#fff"
+                return d._children ? selectedFillColor : selectedFillColor
             })
             .style("stroke", function(d) {
-                return d._children ? strokeColor(d.genre) : "#fff"
+                return d._children ? selectedStrokeColor : selectedStrokeColor
             })
         
         // Add labels for the nodes
@@ -167,7 +171,10 @@ function clickBubble (d) {
         nodeUpdate.select('circle.node')
             .attr('r', 10)
             .style("fill", function(d) {
-                return d._children ? fillColor(d.genre) : "#fff"
+                return d._children ? selectedFillColor : selectedFillColor
+            })
+            .style("stroke", function(d) {
+                return d._children ? selectedStrokeColor : selectedStrokeColor
             })
             .attr('cursor', 'pointer')
         
@@ -197,7 +204,7 @@ function clickBubble (d) {
         // Enter any new links at the parent's previous position.
         var linkEnter = link.enter().insert('path', "g")
             .attr("class", "link")
-            .attr("stroke", "#ffffff")
+            .attr("stroke", selectedStrokeColor)
             .attr('d', function(d){
                 var o = {x: source.x0, y: source.y0}
                 return diagonal(o, o)
