@@ -13,6 +13,10 @@ const x = d3.scaleTime()
 const y = d3.scaleLinear()
     .range([height, 0])
 
+const div = d3.select("body").append("div")	
+    .attr("class", "tooltip")		
+    .style("opacity", 0)
+
 const fillColor = d3.scaleOrdinal()
     .range(["rgba(219, 41, 79, .4)", "rgba(237, 109, 152, .4)", "rgba(134, 49, 255, .4)", "rgba(0, 19, 255, .4)", "rgba(0, 183, 255, .4)"])
 
@@ -26,7 +30,7 @@ const svg = d3.select(".data").append("svg")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 
-d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/data/obaMovieData.json").then(function(data) {
+d3.json("../data/obaMovieData.json").then(function(data) {
     fetchedData.nestedData = d3.nest()
         .key(d => d.title)
         .key(d => d.producer)
@@ -64,8 +68,8 @@ function clickBubble (d) {
 
     const title = d.title
     const margin = {
-        left: 450,
-        top: 2,
+        left: 500,
+        top: 20,
     }
 
     const networkDiagram = d3.select('.tree').append('svg')
@@ -82,7 +86,7 @@ function clickBubble (d) {
     let duration = 750
     let root
     
-    // declares a tree layout and assigns the size
+    // use the tree function to create the tree structure in d3
     const treemap = d3.tree().size([height, width])
     
     const data = fetchedData.nestedData
@@ -208,7 +212,7 @@ function clickBubble (d) {
         const link = networkDiagram.selectAll('path.link')
             .data(links, function(d) { return d.id })
         
-        // Enter any new links at the parent's previous position.
+        // Enter any new links at the parent's previous position.z
         const linkEnter = link.enter().insert('path', "g")
             .attr("class", "link")
             .attr("stroke", selectedStrokeColor)
@@ -217,9 +221,9 @@ function clickBubble (d) {
                 return diagonal(o, o)
             })
         
-        // UPDATE
         const linkUpdate = linkEnter.merge(link)
-        console.log(linkUpdate)
+        // BUG HERE. No idea how to fix it yet.
+        // console.log(linkUpdate)
         
         // Transition back to the parent element position
         linkUpdate.transition()
@@ -256,7 +260,7 @@ function clickBubble (d) {
             // console.log("label")
             if (d.children) {
                 d._children = d.children
-                d.children = de.children
+                d.children = null
             } else {
                 d.children = d._children
                 d._children = null
@@ -273,16 +277,38 @@ function clickBubble (d) {
         .style("opacity", 0.1)
         .style("fill", "#ffffff")
         .on("click", clickBubble)
+        .on("mouseover", function(d) {
+            d3.select(this)
+                .attr("r", 12)
+                .style("stroke", strokeColor(d.genre))
+                .style("fill", fillColor(d.genre))
+            div.transition()		
+                .duration(200)		
+                .style("opacity", .8)
+            div.html(d.title)	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px")
+        })
+        // Another event
+        .on("mouseout", function(d) {
+            d3.select(this)
+                .style("fill", fillColor(d.genre))
+                .attr("r", 8)
+                .style("stroke", strokeColor(d.genre))
+        })
         .transition()
         .delay(d => (Math.random()*500))
         .duration(1500)
+        .ease(d3.easeCircleInOut)
         .style("opacity", 1)
         .attr("r", 8)
         .attr("cx", function(d) { return x(d.publicationYear) })
         .attr("cy", function(d) { return y(d.rating) })
         .style("fill", function(d) { return fillColor(d.genre) })
         .style("stroke", function(d) { return strokeColor(d.genre) })
-
+        
+    
+    // Look of x- and y-axis
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x))
@@ -290,11 +316,11 @@ function clickBubble (d) {
         .attr("font-size", "12px")
         .call(g => g.append("text")
             .attr("transform", "rotate(0)")
-            .attr("x", 500)
+            .attr("x", 700)
             .attr("dy", "3.5em")
             .attr("fill", "#ffffff")
             .style("text-anchor", "middle")
-            .text("Years"))
+            .text("Jaren"))
 
     svg.append("g")
         .call(d3.axisLeft(y))
@@ -324,6 +350,7 @@ function clickBubble (d) {
         .attr("cx", width + 5)
         .style("fill", (d => { return fillColor(d) }))
         .style("stroke", (d => { return strokeColor(d) }))
+        .attr("cursor", "pointer")
     legend.on("click", function(type) {
         d3.selectAll(".legend")
             .style("opacity", 0.2)
@@ -344,6 +371,7 @@ function clickBubble (d) {
         .attr("fill", "rgb(255, 255, 255)")
         .attr("font-family", "Raleway")
         .attr("font-weight", 300)
+        .attr("cursor", "pointer")
         .text(d => {return d})
 
 })

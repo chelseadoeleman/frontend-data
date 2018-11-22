@@ -3,24 +3,6 @@
 // const _range = require ("lodash.range")
 // const fs = require("fs")
 
-// Return new object while mapping over all results to get only the specific result for research
-const getTransformedResultFromResults = (results) => {
-    return results 
-        ? results
-            .filter(result => {
-                const duration = getDurationFromResult(result)
-                return !duration.includes('uur') 
-                    && !duration.includes('..')      
-            })
-            .map(result => ({
-                title: getTitleFromResult(result),
-                duration: getDurationTime(getDurationFromResult(result)),
-                publicationYear: getPublicationYearFromResult(result),
-                genre: getGenreFromResult(result),
-                coverImage: getCoverImageFromResult(result)
-            })) 
-        : []
-}
 
 // Checks to make sure the results are there in the data and will not unexpectedly break.
 const getTitleFromResult = (result) => {
@@ -113,6 +95,25 @@ const transFormDuration = (rawDuration) => {
             ? plusArray.reduce((acc, curr) => acc + Number(curr), 0)
             : Number(removeAbout2)
     }
+}
+
+// Return new object while mapping over all results to get only the specific result for research
+const getTransformedResultFromResults = (results) => {
+    return results 
+        ? results
+            .filter(result => {
+                const duration = getDurationFromResult(result)
+                return !duration.includes('uur') 
+                    && !duration.includes('..')      
+            })
+            .map(result => ({
+                title: getTitleFromResult(result),
+                duration: getDurationTime(getDurationFromResult(result)),
+                publicationYear: getPublicationYearFromResult(result),
+                genre: getGenreFromResult(result),
+                coverImage: getCoverImageFromResult(result)
+            })) 
+        : []
 }
 
 // Export the following functions
