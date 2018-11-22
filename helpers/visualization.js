@@ -1,7 +1,7 @@
 const fetchedData = {
     nestedData: undefined,
 }
-const margin = {top: 20, right: 20, bottom: 30, left: 50},
+const margin = {top: 20, right: 20, bottom: 50, left: 50},
     width = 800 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom
 
@@ -55,10 +55,11 @@ d3.json("/../data/obaMovieData.json").then(function(data) {
 function clickBubble (d) {
     const removeRoot = document.querySelector('.tree')
     removeRoot.innerHTML = ''
+    // console.log(removeRoot)
     const selectedStrokeColor = d3.select(this).style('stroke')
     const selectedFillColor = d3.select(this).style('fill')
-    console.log(selectedFillColor)
-    console.log(selectedStrokeColor)
+    // console.log(selectedFillColor)
+    // console.log(selectedStrokeColor)
 
     const title = d.title
     const margin = {
@@ -109,6 +110,7 @@ function clickBubble (d) {
     function update(source) {
         // Assigns the x and y position for the nodes
         var treeData = treemap(root)
+        console.log(treeData)
         
         // Compute the new tree layout.
         var nodes = treeData.descendants(),
@@ -135,6 +137,10 @@ function clickBubble (d) {
         nodeEnter.append('circle')
             .attr('class', 'node')
             .attr('r', 1e-6)
+            .transition()
+            .duration(500)
+            .delay(100)
+            .ease(d3.easeCircle)
             .style("fill", function(d) {
                 return d._children ? selectedFillColor : selectedFillColor
             })
@@ -169,7 +175,7 @@ function clickBubble (d) {
         
         // Update the node attributes and style
         nodeUpdate.select('circle.node')
-            .attr('r', 10)
+            .attr('r', 12)
             .style("fill", function(d) {
                 return d._children ? selectedFillColor : selectedFillColor
             })
@@ -212,6 +218,7 @@ function clickBubble (d) {
         
         // UPDATE
         var linkUpdate = linkEnter.merge(link)
+        console.log(linkUpdate)
         
         // Transition back to the parent element position
         linkUpdate.transition()
@@ -280,6 +287,13 @@ function clickBubble (d) {
         .call(d3.axisBottom(x))
         .attr("font-family", "Raleway")
         .attr("font-size", "12px")
+        .call(g => g.append("text")
+            .attr("transform", "rotate(0)")
+            .attr("x", 720)
+            .attr("dy", "3.5em")
+            .attr("fill", "#ffffff")
+            .style("text-anchor", "middle")
+            .text("Years"))
 
     svg.append("g")
         .call(d3.axisLeft(y))
