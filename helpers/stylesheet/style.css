@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     color: #ffffff;
     font-weight: 700;
-    background-image: url("/docs/images/sky.jpg");
+    background-image: url("https://github.com/chelseadoeleman/frontend-data/blob/master/docs/images/sky.jpg?raw=true");
     background-size: cover;
     background-color: #2b2b2b;
 }
