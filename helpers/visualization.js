@@ -25,7 +25,7 @@ const svg = d3.select(".data").append("svg")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 
-d3.json("../data/obaMovieData.json").then(function(data) {
+d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/data/obaMovieData.json").then(function(data) {
     fetchedData.nestedData = d3.nest()
         .key(d => d.title)
         .key(d => d.producer)
