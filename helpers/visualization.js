@@ -2,8 +2,8 @@ const fetchedData = {
     nestedData: undefined,
 }
 const margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = 1000 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom
+    width = 800 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom
 
 const parseTime = d3.timeParse("%Y")
 
@@ -58,8 +58,8 @@ function clickBubble (d) {
 
     const title = d.title
     const margin = {
-        left: 150,
-        top: 20,
+        left: 450,
+        top: 2,
     }
 
     const networkDiagram = d3.select('.tree').append('svg')
@@ -141,10 +141,8 @@ function clickBubble (d) {
         // Add labels for the nodes
         nodeEnter.append('text')
             .attr("dy", ".35em")
-            .attr("font-family", "Raleway")
-            .attr("font-size", "6px")
             .attr("x", function(d) {
-                return d.children || d._children ? -20 : 20
+                return d.children || d._children ? 13 : -13
             })
             .attr("y", function(d) {
                 return d.children || d._children ? 30 : -30

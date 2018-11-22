@@ -13,13 +13,12 @@ h1 {
   text-align: center;
 }
 
-.tree {
+/* .tree .node {
     display: flex;
-    justify-content: center;
-}
+    flex-wrap: wrap
+} */
 
 .data {
-    margin-top: 10em;
     display: flex;
     justify-content: center;
 }
@@ -27,6 +26,7 @@ h1 {
 .tree .node text {
     font-family: Raleway;
     font-size: 12px;
+    max-width: 50px;
 }
 
 .line {
@@ -36,14 +36,9 @@ h1 {
   }
 
   .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 3px;
-  }
-  
-  .node text {
-    font: 12px sans-serif;
-    color: red;
+    fill: rgba(180, 70, 131, .4);
+    stroke: rgb(180, 70, 131);
+    stroke-width: 2px;
   }
   
   .link {
