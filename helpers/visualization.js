@@ -110,7 +110,7 @@ function clickBubble (d) {
     function update(source) {
         // Assigns the x and y position for the nodes
         var treeData = treemap(root)
-        console.log(treeData)
+        // console.log(treeData)
         
         // Compute the new tree layout.
         var nodes = treeData.descendants(),
