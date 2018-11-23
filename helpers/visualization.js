@@ -8,6 +8,7 @@ const margin = {top: 20, right: 250, bottom: 50, left: 50},
 
 const parseTime = d3.timeParse("%Y")
 
+// Move x axis to make dots in 2008 more visible
 const x = d3.scaleTime()
     .range([15, width])
 const y = d3.scaleLinear()
@@ -74,6 +75,8 @@ function clickBubble (d) {
         top: 20,
     }
 
+
+    // code from https://bl.ocks.org/d3noob/80c100e35817395e88918627eeeac717 modified to own preferences.
     // create new svg in div .tree so graphs can be shown seperately
     const networkDiagram = d3.select('.tree').append('svg')
             .attr('width', width + margin.left)
@@ -101,9 +104,10 @@ function clickBubble (d) {
     root.x0 = height / 2
     root.y0 = 0
     
-    // Collapse after the second level
+    // Collapse data
     collapse(root.data)
     
+    // update the data
     update(root)
     
     // collapse function for all the dots that have children 
@@ -116,24 +120,19 @@ function clickBubble (d) {
     }
     
     function update(source) {
-        // Assigns the x and y position for the nodes
+        // Get x and y position for the dots
         const treeData = treemap(root)
-        // console.log(treeData)
         
-        // Compute the new tree layout.
+        // calculate the new data for in the tree
         const nodes = treeData.descendants(),
             links = treeData.descendants().slice(1)
-
-        // Normalize for fixed-depth.
         nodes.forEach(function(d){ d.y = d.depth * 180})
         
-        // ****************** Nodes section ***************************
-        
-        // Update the nodes...
+        // Update the nodes in networkDiagram
         const node = networkDiagram.selectAll('g.node')
             .data(nodes, function(d) {return d.id || (d.id = ++i) })
         
-        // Enter any new modes at the parent's previous position.
+        // Start new node at the previous parent
         const nodeEnter = node.enter().append('g')
             .attr('class', 'node')
             .attr("transform", function(d) {
@@ -141,7 +140,7 @@ function clickBubble (d) {
             })
             .on('click', click)
         
-        // Add Circle for the nodes
+        // Make dots!
         nodeEnter.append('circle')
             .attr('class', 'node')
             .attr('r', 1e-6)
@@ -156,7 +155,7 @@ function clickBubble (d) {
                 return d._children ? selectedStrokeColor : selectedStrokeColor
             })
         
-        // Add labels for the nodes
+        // Add labels for the nodes more styling done in css
         nodeEnter.append('text')
             .attr("dy", ".35em")
             .attr("x", function(d) {
@@ -171,17 +170,17 @@ function clickBubble (d) {
             .text(function(d) { return d.data.name })
             .style("fill", "#fff")
         
-        // UPDATE
+        // merge dots on enter to update    
         const nodeUpdate = nodeEnter.merge(node)
         
-        // Transition to the proper position for the node
+        // placement for children dots, not linking yet
         nodeUpdate.transition()
             .duration(duration)
             .attr("transform", function(d) { 
                 return "translate(" + d.y + "," + d.x + ")"
             })
         
-        // Update the node attributes and style
+        // on opening/update style for the dots
         nodeUpdate.select('circle.node')
             .attr('r', 12)
             .style("fill", function(d) {
@@ -193,7 +192,7 @@ function clickBubble (d) {
             .attr('cursor', 'pointer')
         
         
-        // Remove any exiting nodes
+        // when exiting children remove children dots
         const nodeExit = node.exit().transition()
             .duration(duration)
             .attr("transform", function(d) {
@@ -201,21 +200,20 @@ function clickBubble (d) {
             })
             .remove()
         
-        // On exit reduce the node circles size to 0
+        // Make dots smaller on exit
         nodeExit.select('circle')
             .attr('r', 1e-6)
         
-        // On exit reduce the opacity of text labels
+        // Set text of a dot to 0, to make it invisible
         nodeExit.select('text')
             .style('fill-opacity', 1e-6)
         
-        // ****************** links section ***************************
-        
-        // Update the links...
+        // Create links to connect the dots through one another. 
+        // As every child has a depth it also has and id, where it can be linked to one another.
         const link = networkDiagram.selectAll('path.link')
             .data(links, function(d) { return d.id })
         
-        // Enter any new links at the parent's previous position.z
+        // Attach link (line) to the parent dots postition and start path from there.
         const linkEnter = link.enter().insert('path', "g")
             .attr("class", "link")
             .attr("stroke", selectedStrokeColor)
@@ -224,16 +222,17 @@ function clickBubble (d) {
                 return diagonal(o, o)
             })
         
+        // Update link when exiting
         const linkUpdate = linkEnter.merge(link)
         // BUG HERE. No idea how to fix it yet.
         // console.log(linkUpdate)
         
-        // Transition back to the parent element position
+        // Tuck nodes back into parent dot when exiting children
         linkUpdate.transition()
             .duration(duration)
             .attr('d', function(d){ return diagonal(d, d.parent) })
         
-        // Remove any exiting links
+        // Remove the links from path into parent
         const linkExit = link.exit().transition()
             .duration(duration)
             .attr('d', function(d) {
@@ -248,7 +247,8 @@ function clickBubble (d) {
             d.y0 = d.y
         })
     
-        // Creates a curved (diagonal) path from parent to the child nodes
+        // Create shape of the path that links to children
+        // Resource can be found here https://www.dashingd3js.com/svg-paths-and-d3js
         function diagonal(s, d) {
             path = `M ${s.y} ${s.x}
                     C ${(s.y + d.y) / 2} ${s.x},
@@ -258,9 +258,8 @@ function clickBubble (d) {
             return path
         }
     
-        // Toggle values on click.
+        // Get children values when clicking on a dot
         function click(d) {
-            // console.log("label")
             if (d.children) {
                 d._children = d.children
                 d.children = null
@@ -273,13 +272,16 @@ function clickBubble (d) {
     }
 }
 
-
+// code example from https://bl.ocks.org/d3noob/6f082f0e3b820b6bf68b78f2f7786084
+// Modified to own need, like adding click and mouse events, transitions, etc.
     svg.selectAll("dot")
         .data(data)
     .enter().append("circle")
         .style("opacity", 0.1)
         .style("fill", "#ffffff")
+        // Get networkDiagram of that specific dot
         .on("click", clickBubble)
+        // Add hover an tooltip
         .on("mouseover", function(d) {
             d3.select(this)
                 .attr("r", 12)
@@ -292,7 +294,7 @@ function clickBubble (d) {
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px")
         })
-        // Another event
+        // exit hover and tooltip
         .on("mouseout", function(d) {
             d3.select(this)
                 .style("fill", fillColor(d.genre))
@@ -302,6 +304,7 @@ function clickBubble (d) {
                 .duration(200)
                 .style("opacity", 0)                
         })
+        // Transition when loading the page of the dots creating the scatter plot
         .transition()
         .delay(d => (Math.random()*500))
         .duration(1500)
@@ -320,6 +323,7 @@ function clickBubble (d) {
         .call(d3.axisBottom(x))
         .attr("font-family", "Raleway")
         .attr("font-size", "12px")
+        // Add text to x-axis
         .call(g => g.append("text")
             .attr("transform", "rotate(0)")
             .attr("x", 700)
@@ -332,6 +336,7 @@ function clickBubble (d) {
         .call(d3.axisLeft(y))
         .attr("font-family", "Raleway")
         .attr("font-size", "12px")
+        // Add text to y-axis
         .call(g => g.append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 20)
@@ -350,13 +355,15 @@ function clickBubble (d) {
         .attr("transform", (d, i) => { 
             return "translate(170," + i * 20 + ")" 
         })
-
+    
+    // Create colored circles for legend
     legend.append("circle")
         .attr("r", 6)
         .attr("cx", width + 5)
         .style("fill", (d => { return fillColor(d) }))
         .style("stroke", (d => { return strokeColor(d) }))
         .attr("cursor", "pointer")
+    // When filtering a specific genre
     legend.on("click", function(type) {
         d3.selectAll(".legend")
             .style("opacity", 0.2)
@@ -370,6 +377,7 @@ function clickBubble (d) {
             .style("opacity", 1)
             .style("stroke", (type === strokeColor(type.genre)))
     })
+    // Add text to circle
     legend.append("text")
         .attr("x", width - 24)
         .attr("y", 6)
