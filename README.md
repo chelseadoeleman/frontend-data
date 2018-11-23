@@ -115,7 +115,7 @@ There is a major bug in my graph and in the end I wasn't able to fix this. I fou
 * ?? Now we miss some data here! The following is shown in the console.
 Note how there's first an array of 2 and later only 1. 
 
-![Console](./docs/images/9.png)
+![Console](./docs/images/7.png)
 
 * Maybe with more time I will be able to fix this, but for now this exists in the code!
 
@@ -125,7 +125,20 @@ Alas I didn't manage to get all the features I wanted in my graph. A complete ov
 
 ## Learning process
 
-Getting the data first hand was not a problem, because I had done this before. However by changing my concept I also had to get data from Imdb. These were very large files and an aboslute nightmare to work with. In total I used four datasets, that are conected to each other through id's. But I can't do anything with an movie Id, so I had to get the names and movie titles that belonged to those specific id's. I also had to up my working memory of node to 8GB. It took me two days to write the right code and on the third day I was finally able to get the data. After three hours of waiting I got the right data out of the right files. However because of some mistakes I made it didn't get all the movies. Especially popular ones where missing. So I decided to give up on that one and make a dataset, manualy. So I could get a move on with D3. Here you can find the [end result]() of the complete data that I ran through my [dataGenerator.js](./helpers/dataGenerator.js) 
+Getting the data first hand was not a problem, because I had done this before. However by changing my concept I also had to get data from Imdb. These were very large files and an aboslute nightmare to work with. In total I used four datasets, that are conected to each other through id's. But I can't do anything with an movie Id, so I had to get the names and movie titles that belonged to those specific id's. I also had to up my working memory of node to 8GB. It took me two days to write the right code and on the third day I was finally able to get the data. After three hours of waiting I got the right data out of the right files. However because of some mistakes I made it didn't get all the movies. Especially popular ones where missing. So I decided to give up on that one and make a dataset, manualy. So I could get a move on with D3. Here you can find some of the [end result](//api.jsonbin.io/b/5bf7aba521d8bc25f4bf2444) of the data that I ran through my [dataGenerator.js](./helpers/dataGenerator.js) however no application is able to open the file directly. And to store in an Api. 
+
+But the data looks something like this, only for more than five million results.
+```
+{
+    "movies": "tt0000009",
+    "name": "Alexander Black",
+    "nameId": "nm0085156",
+    "producerId": "nm0085156",
+    "title": "Miss Jerry",
+    "ratingNumber": "5.5",
+    "titleId": "tt0000009"
+  },
+```
 
 My first graph I had up and running in a day, however adding interaction with two graphs ended up being more diffult than I had originally imagined. This took me so much time especially, because I couldn't find an example where these two graphs had been specifically combined before. On the last day before the deadline I decided to completely change my concept, by starting over again or just adding a graph next to my other graph. In the end I did the latter and I managed! But I was really struggling, especially understanding the code for my network graph took a lot of time. I don't think I completely understand all of it, but do get the gist of it. The scatter plot on the other hand was really smooth sailing! Finally something that went right from the start! 😊 I added some tooltips to make it all a bit more user friendly! I'm still really bumped tough that I didn't get my data dynamically... 
 
