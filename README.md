@@ -104,17 +104,20 @@ There is a major bug in my graph and in the end I wasn't able to fix this. I fou
 
  **Beware of the following**
 
- When clicking on a dot you will get the following graph. This works! You can even collapse the dots!
+* When clicking on a dot you will get the following graph. This works! You can even collapse the dots!
+
 ![Good](./docs/images/7.png)
 
-However when clicking on the same dot again, you will now get this:
+* However when clicking on the same dot again, you will now get this:
+
 ![Bad](./docs/images/8.png)
 
-?? Now we miss some data here! The following is shown in the console.
+* ?? Now we miss some data here! The following is shown in the console.
 Note how there's first an array of 2 and later only 1. 
+
 ![Console](./docs/images/9.png)
 
-Maybe with more time I will be able to fix this, but for now this exists in the code!
+* Maybe with more time I will be able to fix this, but for now this exists in the code!
 
 
 Alas I didn't manage to get all the features I wanted in my graph. A complete overview of all the features I would have like to have added and some bugs that are still in the code, can be found [here](https://github.com/chelseadoeleman/functional-programming/issues)
@@ -132,14 +135,14 @@ A complete log of my process can be found in my [processlog](./docs/processlog.m
 
 ## Credits
 
-**[Maikel](https://github.com/Maikxx)**
-    - Overal help trying to get my data and combining the two graphs!
-**[Jessie](https://github.com/jessiemasonx)**
-    - Thanks to Jessie I got a better understanding of nesting and after Tim's presenation, I really couldn't wait to get started with nest! If only I had chosen another graph I think I would have thouroughly enjoyed using nest!
-**May** 
-    - May already had her data structured for the hierarchy function, that I needed for using tree function. Thanks to her I finally understood how the data should be structured to be able to use hierarchy in D3!
-**[Folkert](https://github.com/FJvdPol)**
-    - Tried to help me with my last [bug](#future-additions-and-bugs), but alas wasn't able to fix it. 
+* **[Maikel](https://github.com/Maikxx)**
+    * Overal help trying to get my data and combining the two graphs!
+* **[Jessie](https://github.com/jessiemasonx)**
+    * Thanks to Jessie I got a better understanding of nesting and after Tim's presenation, I really couldn't wait to get started with nest! If only I had chosen another graph I think I would have thouroughly enjoyed using nest!
+* **May** 
+    * May already had her data structured for the hierarchy function, that I needed for using tree function. Thanks to her I finally understood how the data should be structured to be able to use hierarchy in D3!
+* **[Folkert](https://github.com/FJvdPol)**
+    * Tried to help me with my last [bug](#future-additions-and-bugs), but alas wasn't able to fix it. 
 
 ## Resources
 
