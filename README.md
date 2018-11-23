@@ -106,7 +106,7 @@ There is a major bug in my graph and in the end I wasn't able to fix this. I fou
 
 * When clicking on a dot you will get the following graph. This works! You can even collapse the dots!
 
-![Good](./docs/images/7.png)
+![Good](./docs/images/6.png)
 
 * However when clicking on the same dot again, you will now get this:
 
