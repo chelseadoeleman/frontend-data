@@ -33,6 +33,7 @@ const svg = d3.select(".data").append("svg")
 
 
 d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/data/obaMovieData.json").then(function(data) {
+    // Shout out naar Jessie en May for helping me with nesting
     fetchedData.nestedData = d3.nest()
         .key(d => d.title)
         .key(d => d.producer)
@@ -60,6 +61,7 @@ d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/
     x.domain(d3.extent(data, function(d) { return d.publicationYear }))
     y.domain([0,10])
 
+// Shout out naar Maikel van Veen
 // bubble function on click when clicking on dot
 // launches second graph
 function clickBubble (d) {
