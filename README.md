@@ -53,6 +53,8 @@ The variables I would like to take a look at are:
 * The movies of the last ten years
 * Duration of those movies. 
 
+To get the data from the Oba api take a look at my other [repo](https://github.com/chelseadoeleman/functional-programming) because, I only used [helpers.js](./helpers/helpers.js) and [index.js](index.js) to get my data from the Api and isn't relevant to D3. 
+
 
 ## Concept
 
@@ -98,7 +100,8 @@ By clicking on the specific movie dot you would like to view, you will get an ov
 
 ### Future additions and Bugs
 
-There is a major bug in my graph and in the end I wasn't able to fix this. I found the problem really fast, but fixing it was a whole another problem. Both Maikel and Folkert tried to help me fix this, but in the end we weren't able to. 
+There is a major bug in my graph and in the end I wasn't able to fix this. I found the problem really fast, but fixing it was a whole another problem. Both Maikel and Folkert tried to help me fix this, but in the end we weren't able to. So sorry about that. 
+
  **Beware of the following**
 
  When clicking on a dot you will get the following graph. This works! You can even collapse the dots!
@@ -111,17 +114,19 @@ However when clicking on the same dot again, you will now get this:
 Note how there's first an array of 2 and later only 1. 
 ![Console](./docs/images/9.png)
 
-Maybe with more time I will be able to fix this, but for this exists in the code 😥
+Maybe with more time I will be able to fix this, but for now this exists in the code!
 
 
-Alas I didn't manage to get all the features I wanted in my graph. A complete overview of all the features I would have like to have added and some bugs that are still in the code, can be found [here]()
+Alas I didn't manage to get all the features I wanted in my graph. A complete overview of all the features I would have like to have added and some bugs that are still in the code, can be found [here](https://github.com/chelseadoeleman/functional-programming/issues)
 
 
 ## Learning process
 
 Getting the data first hand was not a problem, because I had done this before. However by changing my concept I also had to get data from Imdb. These were very large files and an aboslute nightmare to work with. In total I used four datasets, that are conected to each other through id's. But I can't do anything with an movie Id, so I had to get the names and movie titles that belonged to those specific id's. I also had to up my working memory of node to 8GB. It took me two days to write the right code and on the third day I was finally able to get the data. After three hours of waiting I got the right data out of the right files. However because of some mistakes I made it didn't get all the movies. Especially popular ones where missing. So I decided to give up on that one and make a dataset, manualy. So I could get a move on with D3. Here you can find the [end result]() of the complete data that I ran through my [dataGenerator.js](./helpers/dataGenerator.js) 
 
-My first graph I had up and running in a day, however adding interaction with two graphs ended up being more diffult than I had originally imagined. This took me so much time especially, because I couldn't find an example where these two graphs had been specifically combined before. On the last day before the deadline I decided to completely change my concept, by starting over again or just adding a graph next to my other graph. In the end I did the latter and I managed! But I was really struggling, especially understanding the code for my network graph took a lot of time. I don't think I completely understand all of it, but do get the gist of it. The scatter plot on the other hand was really smooth sailing! Finally something that went right from the start! 😊 I added some tooltips to make it all a bit more user friendly! I'm still really bumped tough that I didn't get my data dynamically...
+My first graph I had up and running in a day, however adding interaction with two graphs ended up being more diffult than I had originally imagined. This took me so much time especially, because I couldn't find an example where these two graphs had been specifically combined before. On the last day before the deadline I decided to completely change my concept, by starting over again or just adding a graph next to my other graph. In the end I did the latter and I managed! But I was really struggling, especially understanding the code for my network graph took a lot of time. I don't think I completely understand all of it, but do get the gist of it. The scatter plot on the other hand was really smooth sailing! Finally something that went right from the start! 😊 I added some tooltips to make it all a bit more user friendly! I'm still really bumped tough that I didn't get my data dynamically... 
+
+[Here you can find my code for my D3 interactive datavisualisation!](./helpers/visualisation.js)
 
 A complete log of my process can be found in my [processlog](./docs/processlog.md)!
 
