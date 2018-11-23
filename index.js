@@ -23,8 +23,8 @@ const search = async (q, facet) => {
 		refine: true,
 		facet,
 		// Return amount of results 
-		// count: 100,
-		count: Infinity,
+		count: 3000,
+		// count: Infinity,
 		filter: (result) => {
 			const publicationYear = helpers.getPublicationYearFromResult(result)
 			const currentYear = new Date().getFullYear()
@@ -40,7 +40,7 @@ const search = async (q, facet) => {
 // Shout out naar Maikel
 (async () => {
 	try {
-		const results = await search("language:eng", ["type(movie)", "genre(humor)"])
+		const results = await search("language:eng", "type(movie)")
 		// ("harry potter", ["type(book)", "auteur(J.K. Rowling)"])
 		// meerdere facetten toevoegen thanks to Jessie
 

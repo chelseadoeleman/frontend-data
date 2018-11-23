@@ -9,7 +9,7 @@ const margin = {top: 20, right: 250, bottom: 50, left: 50},
 const parseTime = d3.timeParse("%Y")
 
 const x = d3.scaleTime()
-    .range([0, width])
+    .range([15, width])
 const y = d3.scaleLinear()
     .range([height, 0])
 
@@ -30,7 +30,7 @@ const svg = d3.select(".data").append("svg")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 
-d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/data/obaMovieData.json").then(function(data) {
+d3.json("../data/obaMovieData.json").then(function(data) {
     fetchedData.nestedData = d3.nest()
         .key(d => d.title)
         .key(d => d.producer)
@@ -295,6 +295,9 @@ function clickBubble (d) {
                 .style("fill", fillColor(d.genre))
                 .attr("r", 8)
                 .style("stroke", strokeColor(d.genre))
+            div.transition()
+                .duration(200)
+                .style("opacity", 0)                
         })
         .transition()
         .delay(d => (Math.random()*500))

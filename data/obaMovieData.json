@@ -63,12 +63,12 @@
     "genre": "Sciencefiction",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=343198398&isbn=&lid=&aut=&ti=&size=70"
 }, {
-    "title": "The Hobbit",
-    "duration": 169,
+    "title": "The Hobbit: The Desolation of Smaug",
+    "duration": 161,
     "publicationYear": 2013,
     "producer": "Peter Jackson",
     "rating": 7.8,
-    "genre": "Sciencefiction",
+    "genre": "Avontureroman",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=354987488&isbn=&lid=&aut=&ti=&size=70"
 }, {
     "title": "Maleficent",
@@ -150,8 +150,744 @@
     "rating": 7.6,
     "genre": "Sprookjes",
     "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Iron Man",
+    "duration": 126,
+    "publicationYear": 2008,
+    "producer": "Jon Favreau",
+    "rating": 7.9,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Twilight",
+    "duration": 122,
+    "publicationYear": 2008,
+    "producer": "Catherine Hardwicke",
+    "rating": 5.2,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wall-e",
+    "duration": 98,
+    "publicationYear": 2008,
+    "producer": "Andrew Stanton",
+    "rating": 8.4,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Bolt",
+    "duration": 96,
+    "publicationYear": 2008,
+    "producer": "Byron Howard",
+    "rating": 6.9,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Curious Case of Benjamin Button",
+    "duration": 166,
+    "publicationYear": 2008,
+    "producer": "David Fincher",
+    "rating": 7.8,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mama Mia",
+    "duration": 108,
+    "publicationYear": 2008,
+    "producer": "Phyllida Lloyd",
+    "rating": 6.4,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+    "duration": 122,
+    "publicationYear": 2008,
+    "producer": "Steven Spielberg",
+    "rating": 6.2,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Kung Fu Panda",
+    "duration": 92,
+    "publicationYear": 2008,
+    "producer": "John Stevenson",
+    "rating": 7.6,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Spiderwick Chronicles",
+    "duration": 96,
+    "publicationYear": 2008,
+    "producer": "Mark Waters",
+    "rating": 6.6,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Avatar",
+    "duration": 162,
+    "publicationYear": 2009,
+    "producer": "James Cameron",
+    "rating": 7.8,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Up in the Air",
+    "duration": 109,
+    "publicationYear": 2009,
+    "producer": "Jason Reitman",
+    "rating": 7.4,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Star Trek: The Future Begins",
+    "duration": 127,
+    "publicationYear": 2009,
+    "producer": "J.J. Abrams",
+    "rating": 8.0,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Proposal",
+    "duration": 108,
+    "publicationYear": 2009,
+    "producer": "Anne Fletcher",
+    "rating": 6.7,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Where the Wild Things Are",
+    "duration": 101,
+    "publicationYear": 2009,
+    "producer": "Spike Jonze",
+    "rating": 6.8,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The princess and the frog",
+    "duration": 97,
+    "publicationYear": 2009,
+    "producer": "Ron Clements",
+    "rating": 7.1,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "duration": 153,
+    "publicationYear": 2009,
+    "producer": "David Yates",
+    "rating": 7.6,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Hangover",
+    "duration": 100,
+    "publicationYear": 2009,
+    "producer": "Todd Phillips",
+    "rating": 7.7,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Push",
+    "duration": 111,
+    "publicationYear": 2009,
+    "producer": "Paul McGuigan",
+    "rating": 6.1,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Inception",
+    "duration": 148,
+    "publicationYear": 2010,
+    "producer": "Christopher Nolan",
+    "rating": 8.8,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Toy Story 3",
+    "duration": 103,
+    "publicationYear": 2010,
+    "producer": "Lee Unkrich",
+    "rating": 8.3,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Kick-Ass",
+    "duration": 117,
+    "publicationYear": 2010,
+    "producer": "Matthew Vaughn",
+    "rating": 7.6,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tangled",
+    "duration": 100,
+    "publicationYear": 2010,
+    "producer": "Byron Howard",
+    "rating": 7.8,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "duration": 146,
+    "publicationYear": 2010,
+    "producer": "David Yates",
+    "rating": 7.7,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Blue Valentine",
+    "duration": 112,
+    "publicationYear": 2010,
+    "producer": "Derek Cianfrance",
+    "rating": 7.4,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Alice in Wonderland",
+    "duration": 108,
+    "publicationYear": 2010,
+    "producer": "Tim Burton",
+    "rating": 6.5,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Love & Other Drugs",
+    "duration": 148,
+    "publicationYear": 2010,
+    "producer": "Edward Zwick",
+    "rating": 6.7,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "You again",
+    "duration": 105,
+    "publicationYear": 2010,
+    "producer": "Andy Fickman",
+    "rating": 5.8,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Midnight in Paris",
+    "duration": 94,
+    "publicationYear": 2011,
+    "producer": "Woody Allen",
+    "rating": 7.7,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Super 8",
+    "duration": 112,
+    "publicationYear": 2011,
+    "producer": "J.J. Abrams",
+    "rating": 7.0,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Horrible Bosses",
+    "duration": 98,
+    "publicationYear": 2011,
+    "producer": "Seth Gordon",
+    "rating": 6.9,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "duration": 130,
+    "publicationYear": 2011,
+    "producer": "David Yates",
+    "rating": 8.1,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Conan the Barbarian",
+    "duration": 113,
+    "publicationYear": 2011,
+    "producer": "Marcus Nispel",
+    "rating": 5.2,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Help",
+    "duration": 146,
+    "publicationYear": 2011,
+    "producer": "Tate Taylor",
+    "rating": 8.1,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Limitless",
+    "duration": 105,
+    "publicationYear": 2011,
+    "producer": "Neil Burger",
+    "rating": 7.4,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "duration": 136,
+    "publicationYear": 2011,
+    "producer": "Rob Marshall",
+    "rating": 6.6,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Green lantern",
+    "duration": 114,
+    "publicationYear": 2011,
+    "producer": "Martin Campbell",
+    "rating": 5.5,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cloud Atlas",
+    "duration": 172,
+    "publicationYear": 2012,
+    "producer": "Tom Tykwer",
+    "rating": 7.5,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Brave",
+    "duration": 93,
+    "publicationYear": 2012,
+    "producer": "Mark Andrews",
+    "rating": 7.1,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wreck-It Ralph",
+    "duration": 101,
+    "publicationYear": 2012,
+    "producer": "Rich Moore",
+    "rating": 7.7,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Life of Pi",
+    "duration": 127,
+    "publicationYear": 2012,
+    "producer": "Ang Lee",
+    "rating": 7.9,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Rise of the Guardians",
+    "duration": 97,
+    "publicationYear": 2012,
+    "producer": "Peter Ramsey",
+    "rating": 7.3,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Prometheus",
+    "duration": 124,
+    "publicationYear": 2012,
+    "producer": "Ridley Scott",
+    "rating": 7.0,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "21 Jump Street",
+    "duration": 109,
+    "publicationYear": 2012,
+    "producer": "Phil Lord",
+    "rating": 7.2,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Anna Karenina",
+    "duration": 129,
+    "publicationYear": 2012,
+    "producer": "Joe Wright",
+    "rating": 6.6,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "This is the End",
+    "duration": 107,
+    "publicationYear": 2013,
+    "producer": "Evan Goldberg",
+    "rating": 6.6,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Man of Steel",
+    "duration": 143,
+    "publicationYear": 2013,
+    "producer": "Zack Snyder",
+    "rating": 7.1,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Gravity",
+    "duration": 91,
+    "publicationYear": 2013,
+    "producer": "Alfonso Cuarón",
+    "rating": 7.7,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Wolf of Wall Street",
+    "duration": 180,
+    "publicationYear": 2013,
+    "producer": "Martin Scorsese",
+    "rating": 8.2,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Snowpiercer",
+    "duration": 126,
+    "publicationYear": 2013,
+    "producer": "Joon-ho Bong",
+    "rating": 7.1,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Croods",
+    "duration": 98,
+    "publicationYear": 2013,
+    "producer": "Kirk DeMicco",
+    "rating": 7.2,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "We're the Millers",
+    "duration": 110,
+    "publicationYear": 2013,
+    "producer": "Rawson Marshall Thurber",
+    "rating": 7.0,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Beautiful Creatures",
+    "duration": 124,
+    "publicationYear": 2013,
+    "producer": "Richard LaGravenese",
+    "rating": 6.2,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Lone Ranger",
+    "duration": 150,
+    "publicationYear": 2013,
+    "producer": "Gore Verbinski",
+    "rating": 6.4,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Guardians of the Galaxy",
+    "duration": 121,
+    "publicationYear": 2014,
+    "producer": "James Gunn",
+    "rating": 8.1,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Grand Budapest Hotel",
+    "duration": 99,
+    "publicationYear": 2014,
+    "producer": "Wes Anderson",
+    "rating": 8.1,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Interstellar",
+    "duration": 169,
+    "publicationYear": 2014,
+    "producer": "Christopher Nolan",
+    "rating": 8.6,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Fault in Our Stars",
+    "duration": 126,
+    "publicationYear": 2014,
+    "producer": "Josh Boone",
+    "rating": 7.7,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Lego Movie",
+    "duration": 124,
+    "publicationYear": 2014,
+    "producer": "Phil Lord",
+    "rating": 7.8,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Transformers: Age of Extinction",
+    "duration": 165,
+    "publicationYear": 2014,
+    "producer": "Michael Bay",
+    "rating": 5.7,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Theory of Everything",
+    "duration": 123,
+    "publicationYear": 2014,
+    "producer": "James Marsh",
+    "rating": 7.7,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Hobbit: The Battle of the Five Armies",
+    "duration": 144,
+    "publicationYear": 2014,
+    "producer": "Peter Jackson",
+    "rating": 7.4,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "22 Jump Street",
+    "duration": 112,
+    "publicationYear": 2014,
+    "producer": "Phil Lord",
+    "rating": 7.0,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Martian",
+    "duration": 144,
+    "publicationYear": 2015,
+    "producer": "Ridley Scott",
+    "rating": 8.0,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Big Short",
+    "duration": 130,
+    "publicationYear": 2015,
+    "producer": "Adam McKay",
+    "rating": 7.8,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Carol",
+    "duration": 118,
+    "publicationYear": 2015,
+    "producer": "Todd Haynes",
+    "rating": 7.2,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Cinderella",
+    "duration": 105,
+    "publicationYear": 2015,
+    "producer": "Kenneth Branagh",
+    "rating": 6.9,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Tomorrowland",
+    "duration": 130,
+    "publicationYear": 2015,
+    "producer": "Brad Bird",
+    "rating": 6.5,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Goosebumps",
+    "duration": 103,
+    "publicationYear": 2015,
+    "producer": "Rob Letterman",
+    "rating": 6.3,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Star Wars: Epsiode VII - The Force Awakens",
+    "duration": 136,
+    "publicationYear": 2015,
+    "producer": "J.J. Abrams",
+    "rating": 8.0,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Arrival",
+    "duration": 116,
+    "publicationYear": 2016,
+    "producer": "Denis Villeneuve",
+    "rating": 7.9,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Zootropolis",
+    "duration": 108,
+    "publicationYear": 2016,
+    "producer": "Byron Howard",
+    "rating": 8.0,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Deadpool",
+    "duration": 108,
+    "publicationYear": 2016,
+    "producer": "Tim Miller",
+    "rating": 8.0,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "La La Land",
+    "duration": 128,
+    "publicationYear": 2016,
+    "producer": "Damien Chazelle",
+    "rating": 8.1,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Captain America: Civil War",
+    "duration": 147,
+    "publicationYear": 2016,
+    "producer": "Anthony Russo",
+    "rating": 7.8,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Batman v Superman: Dawn of Justice",
+    "duration": 151,
+    "publicationYear": 2015,
+    "producer": "Zack Snyver",
+    "rating": 6.5,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Pete's Dragon",
+    "duration": 102,
+    "publicationYear": 2016,
+    "producer": "David Lowery",
+    "rating": 6.7,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Hail, Caesar!",
+    "duration": 106,
+    "publicationYear": 2016,
+    "producer": "Ethan Coen",
+    "rating": 6.3,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Call Me by Your Name",
+    "duration": 132,
+    "publicationYear": 2017,
+    "producer": "Luca Guadagnino",
+    "rating": 8.0,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Lady Bird",
+    "duration": 94,
+    "publicationYear": 2017,
+    "producer": "Greta Gerwig",
+    "rating": 7.5,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Blade Runner 2049",
+    "duration": 164,
+    "publicationYear": 2017,
+    "producer": "Denis Villeneuve",
+    "rating": 8.0,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Wonder Woman",
+    "duration": 141,
+    "publicationYear": 2017,
+    "producer": "Patty Jenkins",
+    "rating": 7.5,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Thor: Ragnarok",
+    "duration": 130,
+    "publicationYear": 2017,
+    "producer": "Taika Waititi",
+    "rating": 7.9,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Coco",
+    "duration": 105,
+    "publicationYear": 2017,
+    "producer": "Lee Unkrich",
+    "rating": 8.4,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Black Panther",
+    "duration": 134,
+    "publicationYear": 2018,
+    "producer": "Ryan Coogler",
+    "rating": 7.4,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Incredibles 2",
+    "duration": 118,
+    "publicationYear": 2018,
+    "producer": "Brad Bird",
+    "rating": 7.9,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ready Player One",
+    "duration": 140,
+    "publicationYear": 2018,
+    "producer": "Steven Spielberg",
+    "rating": 7.6,
+    "genre": "Sciencefiction",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Mamma Mia! Here We Go Again",
+    "duration": 114,
+    "publicationYear": 2018,
+    "producer": "Ol Parker",
+    "rating": 7.0,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "The Nutcracker and the Four Realms",
+    "duration": 99,
+    "publicationYear": 2018,
+    "producer": "Lasse Hallstrom",
+    "rating": 5.6,
+    "genre": "Sprookjes",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "A Star is Born",
+    "duration": 136,
+    "publicationYear": 2018,
+    "producer": "Bradley Cooper",
+    "rating": 8.2,
+    "genre": "Romantisch verhaal",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ant-Man and the Wasp",
+    "duration": 118,
+    "publicationYear": 2018,
+    "producer": "Peyton Reed",
+    "rating": 7.2,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ocean's Eight",
+    "duration": 110,
+    "publicationYear": 2018,
+    "producer": "Gary Ross",
+    "rating": 6.2,
+    "genre": "Humor",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
+}, {
+    "title": "Ralph Breaks the Internet",
+    "duration": 112,
+    "publicationYear": 2018,
+    "producer": "Phil Johnston",
+    "rating": 8.0,
+    "genre": "Avontureroman",
+    "coverImage": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=408730994&isbn=&lid=&aut=&ti=&size=70"
 }
-] 
+]
 
 
 

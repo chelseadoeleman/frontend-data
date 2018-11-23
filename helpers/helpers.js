@@ -1,9 +1,5 @@
 // Shout out naar Maikel voor het helpen
 
-// const _range = require ("lodash.range")
-// const fs = require("fs")
-
-
 // Checks to make sure the results are there in the data and will not unexpectedly break.
 const getTitleFromResult = (result) => {
     return result.titles
@@ -53,7 +49,7 @@ const getCoverImageFromResult = (result) => {
             : result.coverimages.coverimage.$t || undefined
 }
 
-// getPublicationYears from the last 30 years.
+// getPublicationYears from the last 10 years.
 const getPublicationYears = () => {
     const currentYear = new Date().getFullYear()
     // Currentyear + 1 because else it wouldn't count past 1 januari 2018
@@ -62,7 +58,6 @@ const getPublicationYears = () => {
     return publicationYears
 }
 
-// return Name and Gender in a new object.
 const getDurationTime = (duration) => {
     const rawDuration = duration.split("(")[1].split(")")[0]
     const transformedDuration = transFormDuration(rawDuration)
@@ -70,7 +65,6 @@ const getDurationTime = (duration) => {
 }
 
 const transFormDuration = (rawDuration) => {
-    // console.log(rawDuration)
 
     const removeMin = rawDuration.replace(' min.', '')
     const removeAbout = removeMin.replace('ongeveer ', '')
@@ -78,7 +72,6 @@ const transFormDuration = (rawDuration) => {
     const timesCode = String.fromCharCode(215)
     const multiplyArray = removeAbout2.indexOf(` ${timesCode} `) !== -1 && removeAbout2.split(` ${timesCode} `)
 
-    // console.log(multiplyArray)
 
     if (multiplyArray) {
         const firstNumber = Number(multiplyArray[0])
@@ -122,9 +115,6 @@ module.exports = {
     getPublicationYearFromResult, 
     getGenreFromResult,
     getDurationTime
-    // getGenderFromName, 
-    // getNameAndGender,
-    // getPublicationYears
 }
 
 
