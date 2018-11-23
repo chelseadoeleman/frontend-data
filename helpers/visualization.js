@@ -17,6 +17,7 @@ const div = d3.select("body").append("div")
     .attr("class", "tooltip")		
     .style("opacity", 0)
 
+// function to assign the right color to specific genre
 const fillColor = d3.scaleOrdinal()
     .range(["rgba(219, 41, 79, .4)", "rgba(237, 109, 152, .4)", "rgba(134, 49, 255, .4)", "rgba(0, 19, 255, .4)", "rgba(0, 183, 255, .4)"])
 
@@ -35,6 +36,7 @@ d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/
         .key(d => d.title)
         .key(d => d.producer)
         .entries(data)
+        // define structure for hierarchy. Hierarchy function must have name or children
         .map(d => ({
             name: d.key,
             children: d.values.map(dv => {
@@ -57,14 +59,14 @@ d3.json("https://raw.githubusercontent.com/chelseadoeleman/frontend-data/master/
     x.domain(d3.extent(data, function(d) { return d.publicationYear }))
     y.domain([0,10])
 
+// bubble function on click when clicking on dot
+// launches second graph
 function clickBubble (d) {
+    // remove complete graph when clicking on another dot
     const removeRoot = document.querySelector('.tree')
     removeRoot.innerHTML = ''
-    // console.log(removeRoot)
     const selectedStrokeColor = d3.select(this).style('stroke')
     const selectedFillColor = d3.select(this).style('fill')
-    // console.log(selectedFillColor)
-    // console.log(selectedStrokeColor)
 
     const title = d.title
     const margin = {
@@ -72,6 +74,7 @@ function clickBubble (d) {
         top: 20,
     }
 
+    // create new svg in div .tree so graphs can be shown seperately
     const networkDiagram = d3.select('.tree').append('svg')
             .attr('width', width + margin.left)
             .attr("height", height + margin.top)
@@ -93,7 +96,7 @@ function clickBubble (d) {
     const td = Object.assign({}, data 
         .filter(d => d.name === title)[0])
 
-    // Assigns parent, values, height, depth
+    // use hierarchy function to use descendants and to use the tree function
     root = d3.hierarchy(td)
     root.x0 = height / 2
     root.y0 = 0
@@ -103,7 +106,7 @@ function clickBubble (d) {
     
     update(root)
     
-    // Collapse the node and all it's values
+    // collapse function for all the dots that have children 
     function collapse(d) {
         if(d.children) {
             d._children = d.children

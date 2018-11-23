@@ -12,6 +12,7 @@ After that we had another presentation by Emma, who worked on a datavisualisatio
 
 The rest of the day I spent browsing through the data again and starting from scratch with the Api. From there I want to build my data like last time, so it can be loaded dynamically and also will be in the right format for D3. 
 
+
 ### Day 2 | 13 October 2018
 
 Today I started with a general idea about the data I wanted to use. First I wanted to compare the number of pages with the number of cover images through the years. After that I started sketching and decided what I wanted my interaction to look like and how it would work. In the end I threw this idea out the window and started all over again. But this time with movies. To compare the total minutes of movie genres throughout the years. And to zoom in on a certain genre, to see wich movies might have a longer character title to the duration of that movie. Where the data could also be viewed in certain periods. Then a lot of sketching happened again. 
@@ -52,6 +53,7 @@ First we had a lecture from Justus about clean code. I really learned a lot from
 
 After all the trouble I went to, ofcourse the data was incomplete, because of some checks I put in beforehand. So I have to check those again to make it finally work. However now I had only three days to complete my datavisualisation with interaction. So I decided to completely skip this. Damn...☹️ 
 
+
 ### Day 7 | 20 November 2018
 
 In the morning I worked on my scatter plot. Around midday I finally had my scatter plot up and running with my static data file. After that I managed to style the graph and made sure you can view only the dots of a genre you would want to view, instead of all of them. This makes the graph a lot more userfriendly. I also added some transitions to make it all smoother. 🐙
@@ -61,8 +63,10 @@ In the morning I worked on my scatter plot. Around midday I finally had my scatt
 
 Today we first had a lecture by Nick who just graduated from CMD, with his project by Clever Franke. It was very insightful how to make an interaction user-friendly and also the different possibilities with D3. There were some complex visualisation, but so awesome! After that I tried to add the next step of interaction to my graph by adding a network graph. In the end with a lot of help from Maikel and a bit of help from May we managed to get the graph. But the styling on this graph was a nightmare. Which I just couldn't figure out. So i tried to work with a new example, however they changed the tree function in v4. and all the good examples where written in v3. I had a really hard time writing this to v4. So i tried to look for examples in v4. Alas by the end of the day I just didn't manage... Which kinda stressed me out. I had only one left to fix everything. From my graph to the data... And I really didn't see how I was going to make this work... 😥
 
+
 ### Day 9 | 22 November 2018
 
+I began the day by searching for network graphs in v4, because I found it really difficult to write v3 to v5 with the ```tree()``` function. After coming up empty handed I decided to look at other graph, to start all over again. In the end I decided to just combine two graphs, by showing them next to each other. This wasn't my original plan, but due to time management it was my very last resolve. Understanding a network graph is quite complex for me, so writing the code myself was nearly impossible at the moment. Luckily I found a great [example]()! After that came styling etc. which was still a hard thing to do, while I normally don't really struggle with this in D3. It was a very long frustrating day and I feel I got little done here. So i'm quite dissapointed by that and would like to have learned more about interactions with D3... Maybe somewhere in the near future 🙃. On this day I also had to manage all my data and because I couldn't get this dynamically I set everything manually. Not how I wanted things to go, but very neccessary...
 
 
 ### Day 10 | 23 November 2018
