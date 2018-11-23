@@ -98,6 +98,8 @@ By clicking on the specific movie dot you would like to view, you will get an ov
 
 ![dataVisualistion](./docs/images/1.png)
 
+[Here](./data/obaMovieData.json) is my data is set manually to create this visualisation
+
 ### Future additions and Bugs
 
 There is a major bug in my graph and in the end I wasn't able to fix this. I found the problem really fast, but fixing it was a whole another problem. Both Maikel and Folkert tried to help me fix this, but in the end we weren't able to. So sorry about that. 
