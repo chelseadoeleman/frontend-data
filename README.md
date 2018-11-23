@@ -120,7 +120,7 @@ Note how there's first an array of 2 and later only 1.
 * Maybe with more time I will be able to fix this, but for now this exists in the code!
 
 
-Alas I didn't manage to get all the features I wanted in my graph. A complete overview of all the features I would have like to have added and some bugs that are still in the code, can be found [here](https://github.com/chelseadoeleman/functional-programming/issues)
+Alas I didn't manage to get all the features I wanted in my graph. A complete overview of all the features I would have like to have added and some bugs that are still in the code, can be found [here](https://github.com/chelseadoeleman/frontend-data/issues)
 
 
 ## Learning process
