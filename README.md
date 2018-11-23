@@ -7,7 +7,6 @@
 
 
 ## Table of Contents
-* [End product](#end-product) 
 * [How to install](#how-to-install) 
 * [Oba Api](#the-data) 
 * [Concept](#concept)
